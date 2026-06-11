@@ -1,0 +1,14 @@
+baseURL = 'https://getfoss.org/'
+title = 'GetFOSS'
+theme = 'hugo-theme-stack'
+
+defaultContentLanguage = 'en'
+hasCJKLanguage = false
+
+[pagination]
+pagerSize = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

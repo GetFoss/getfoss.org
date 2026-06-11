@@ -1,0 +1,20 @@
+baseURL = "https://getfoss.org/"
+title = "GetFOSS"
+theme = "hugo-theme-stack"
+
+enableRobotsTXT = true
+
+defaultContentLanguage = "en"
+hasCJKLanguage = false
+locale = "en-us"
+
+[pagination]
+    pagerSize = 10
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
