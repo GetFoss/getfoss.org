@@ -39,13 +39,6 @@ weight = 50
 icon = "link"
 
 [[social]]
-identifier = "kofi"
-name = "Ko-fi"
-url = "https://ko-fi.com/getfoss"
-[social.params]
-icon = "brand-kofi"
-
-[[social]]
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/GetFoss"
