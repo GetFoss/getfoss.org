@@ -11,15 +11,15 @@ mainSections = [
   "other"
 ]
 rssFullContent = true
-favicon        = "img/avatar.png"
+favicon        = "images/GetFOSS.webp"
 
 [footer]
-    since = 2020
+    since = 2026
 
 [sidebar]
-    emoji    = "✏️"
-    subtitle = "GETFOSS TEST 123456"
-    avatar   = "img/avatar.png"
+    emoji = ""
+    subtitle = "Free as in Freedom"
+    avatar = "images/GetFOSS.webp"
 
 [article]
     [article.license]
@@ -36,15 +36,20 @@ favicon        = "img/avatar.png"
     page     = [{ type = "toc" }]
 
 [comments]
-    # See complete configuration in config/_default/params.toml
     enabled  = false
     provider = "disqus"
 
-# GDPR Cookie Consent Configuration
-# When enabled, analytics and functional cookies require user consent
 [cookies]
     enabled = false
-
     [cookies.categories]
         analytics  = true
         functional = true
+
+[related]
+    includeNewer = true
+    threshold    = 60
+    toLower      = false
+    indices      = [
+        { name = "tags", weight = 100 },
+        { name = "categories", weight = 200 },
+    ]

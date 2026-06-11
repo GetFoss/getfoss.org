@@ -3,7 +3,6 @@ identifier = "home"
 name = "Home"
 url = "/"
 weight = 10
-
 [main.params]
 icon = "home"
 
@@ -12,7 +11,6 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 20
-
 [main.params]
 icon = "user"
 
@@ -21,7 +19,6 @@ identifier = "archives"
 name = "Archives"
 url = "/archives/"
 weight = 30
-
 [main.params]
 icon = "archives"
 
@@ -30,7 +27,6 @@ identifier = "search"
 name = "Search"
 url = "/search/"
 weight = 40
-
 [main.params]
 icon = "search"
 
@@ -39,22 +35,47 @@ identifier = "links"
 name = "Links"
 url = "/links/"
 weight = 50
-
 [main.params]
 icon = "link"
 
 [[social]]
+identifier = "kofi"
+name = "Ko-fi"
+url = "https://ko-fi.com/getfoss"
+[social.params]
+icon = "brand-kofi"
+
+[[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
-
+url = "https://github.com/GetFoss"
 [social.params]
 icon = "brand-github"
 
 [[social]]
 identifier = "twitter"
-name = "Twitter"
+name = "X"
 url = "https://x.com/GetFoss"
-
 [social.params]
-icon = "brand-twitter"
+icon = "brand-x"
+
+[[social]]
+identifier = "telegram"
+name = "Telegram"
+url = "https://t.me/getfoss"
+[social.params]
+icon = "brand-telegram"
+
+[[social]]
+identifier = "mastodon"
+name = "Mastodon"
+url = "https://mastodon.social/@GetFOSS"
+[social.params]
+icon = "brand-mastodon"
+
+[[social]]
+identifier = "bluesky"
+name = "Bluesky"
+url = "https://bsky.app/profile/getfoss.org"
+[social.params]
+icon = "brand-bluesky"
