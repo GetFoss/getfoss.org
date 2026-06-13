@@ -11,7 +11,7 @@ mainSections = [
   "other"
 ]
 rssFullContent = true
-favicon        = "images/GetFOSS.webp"
+favicon        = "/images/GetFOSS.webp"
 
 [footer]
     since = 2026
@@ -19,7 +19,7 @@ favicon        = "images/GetFOSS.webp"
 [sidebar]
     emoji = ""
     subtitle = "Free as in Freedom"
-    avatar = "images/GetFOSS.webp"
+    avatar = "/images/GetFOSS.webp"
 
 [article]
     [article.license]
