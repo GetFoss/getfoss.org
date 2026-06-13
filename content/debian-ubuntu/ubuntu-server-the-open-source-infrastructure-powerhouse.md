@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /ubuntu-server-the-open-source-infrastructure-powerhouse/
 title: "Ubuntu Server: The Open Source Infrastructure Powerhouse"
 date: 2026-06-06T22:14:35
 description: "Ubuntu Server is a free, open source OS for enterprise computing. Ditch proprietary licenses and run your infrastructure your way."

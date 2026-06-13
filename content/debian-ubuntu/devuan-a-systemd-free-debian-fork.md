@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /devuan-a-systemd-free-debian-fork/
 title: "Devuan: A Systemd-Free Debian Fork"
 date: 2026-06-09T11:29:29
 lastmod: 2026-06-09T20:34:08

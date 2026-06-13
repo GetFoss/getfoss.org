@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /gimp-the-ultimate-open-source-photo-editing-powerhouse/
 title: "GIMP: The Ultimate Open Source Photo Editing Powerhouse"
 date: 2026-06-06T10:06:41
 lastmod: 2026-06-06T20:43:20

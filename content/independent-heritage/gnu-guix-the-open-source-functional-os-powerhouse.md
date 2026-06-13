@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /gnu-guix-the-open-source-functional-os-powerhouse/
 title: "GNU Guix: The Open Source Functional OS Powerhouse"
 date: 2026-06-06T21:20:33
 lastmod: 2026-06-06T21:40:38

@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /flatcar-container-linux-open-source-container-os-powerhous/
 title: "Flatcar Container Linux - Open Source Container OS Powerhouse"
 date: 2026-06-06T09:15:17
 lastmod: 2026-06-06T09:44:45

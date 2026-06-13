@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /almalinux-os-the-free-enterprise-linux-powerhouse/
 title: "AlmaLinux OS: The Free Enterprise Linux Powerhouse"
 date: 2026-06-06T18:09:01
 description: "AlmaLinux is a free, open source enterprise Linux distribution. Replace RHEL without subscriptions, telemetry, or vendor lock-in."

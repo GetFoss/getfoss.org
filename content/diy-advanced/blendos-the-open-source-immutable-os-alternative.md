@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /blendos-the-open-source-immutable-os-alternative/
 title: "blendOS - The Open Source Immutable OS Alternative"
 date: 2026-06-05T08:56:33
 lastmod: 2026-06-06T12:04:29

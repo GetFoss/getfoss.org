@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /clonezilla-server-edition-open-source-mass-cloning-powerhou/
 title: "Clonezilla Server Edition: Open Source Mass Cloning Powerhouse"
 date: 2026-06-05T19:13:01
 description: "Clonezilla Server is a free, open-source mass deployment and disk cloning tool. Image dozens of machines simultaneously via network."

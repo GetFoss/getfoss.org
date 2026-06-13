@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /safecopy-open-source-data-recovery-powerhouse/
 title: "safecopy: Open Source Data Recovery Powerhouse"
 date: 2026-06-06T17:34:42
 lastmod: 2026-06-06T17:47:56

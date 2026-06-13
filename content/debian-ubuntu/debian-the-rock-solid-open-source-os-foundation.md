@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /debian-the-rock-solid-open-source-os-foundation/
 title: "Debian: The Rock-Solid Open Source OS Foundation"
 date: 2026-06-05T20:25:34
 lastmod: 2026-06-06T18:19:25

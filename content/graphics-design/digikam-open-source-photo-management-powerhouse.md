@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /digikam-open-source-photo-management-powerhouse/
 title: "digiKam - Open Source Photo Management Powerhouse"
 date: 2026-06-05T22:18:26
 lastmod: 2026-06-06T20:32:12

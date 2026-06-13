@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /artix-linux-the-open-source-systemd-free-powerhouse/
 title: "Artix Linux: The Open Source Systemd-Free Powerhouse"
 date: 2026-06-06T15:14:05
 description: "Artix Linux is a free, open source distribution giving you the Arch experience without systemd. Choose your init system. Choose freedom."

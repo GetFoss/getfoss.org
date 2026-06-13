@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /cobbler-open-source-linux-provisioning-powerhouse/
 title: "Cobbler: Open Source Linux Provisioning Powerhouse"
 date: 2026-06-06T16:54:03
 description: "Cobbler is a free, open source Linux installation server for fast network installs. Automate PXE, DHCP, and DNS provisioning."

@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-cloud-open-source-cloud-computing-base/
 title: "Fedora Cloud - Open Source Cloud Computing Base"
 date: 2026-06-05T21:10:18
 description: "Fedora Cloud provides a free open source Linux image tailored for cloud deployments. Escape AWS AMI lock-in and proprietary cloud taxes."

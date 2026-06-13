@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-cinnamon-the-open-source-desktop-powerhouse/
 title: "Fedora Cinnamon: The Open Source Desktop Powerhouse"
 date: 2026-06-06T19:11:53
 lastmod: 2026-06-06T19:20:08

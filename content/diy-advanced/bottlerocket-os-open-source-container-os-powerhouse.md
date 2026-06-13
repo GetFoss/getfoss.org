@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /bottlerocket-os-open-source-container-os-powerhouse/
 title: "Bottlerocket OS - Open Source Container OS Powerhouse"
 date: 2026-06-06T09:54:06
 description: "Bottlerocket is a free open source Linux-based OS built for containers. Secure, immutable, and optimized for AWS EKS and ECS workloads."

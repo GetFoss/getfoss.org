@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /opensuse-microos-the-open-source-container-powerhouse/
 title: "openSUSE MicroOS: The Open Source Container Powerhouse"
 date: 2026-06-06T20:55:42
 lastmod: 2026-06-06T21:07:08

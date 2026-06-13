@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /freebsd-the-open-source-unix-powerhouse/
 title: "FreeBSD: The Open Source Unix Powerhouse"
 date: 2026-06-07T19:30:44
 lastmod: 2026-06-08T20:23:30

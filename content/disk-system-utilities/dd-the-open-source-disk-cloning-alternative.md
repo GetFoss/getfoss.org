@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /dd-the-open-source-disk-cloning-alternative/
 title: "dd - The Open Source Disk Cloning Alternative"
 date: 2026-06-04T21:36:53
 lastmod: 2026-06-05T20:20:02

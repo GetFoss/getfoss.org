@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /superslicer-the-open-source-3d-slicing-alternative/
 title: "SuperSlicer - The Open Source 3D Slicing Alternative"
 date: 2026-06-04T23:12:05
 description: "SuperSlicer is a free, open-source 3D printing slicer packed with advanced calibration tools. Ditch proprietary lock-in and fine-tune your prints."

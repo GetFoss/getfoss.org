@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /backbox-linux-the-open-source-security-os-alternative/
 title: "BackBox Linux - The Open Source Security OS Alternative"
 date: 2026-06-04T20:47:29
 description: "BackBox Linux is a free, open-source penetration testing and security auditing distro. Ditch proprietary tools and secure your network."

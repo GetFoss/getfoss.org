@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /opensuse-tumbleweed-the-ultimate-open-source-rolling-distro/
 title: "openSUSE Tumbleweed: The Ultimate Open Source Rolling Distro"
 date: 2026-06-06T12:49:28
 lastmod: 2026-06-06T12:57:44

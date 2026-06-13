@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /d77void-gnu-linux-the-open-source-diy-os-alternative/
 title: "d77void GNU/Linux - The Open Source DIY OS Alternative"
 date: 2026-06-04T18:54:13
 lastmod: 2026-06-05T18:08:35

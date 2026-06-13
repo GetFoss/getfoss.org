@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /arch-linux-the-open-source-diy-os-alternative/
 title: "Arch Linux - The Open Source DIY OS Alternative"
 date: 2026-06-05T18:03:48
 lastmod: 2026-06-06T15:55:24

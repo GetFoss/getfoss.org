@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /converseen-the-open-source-batch-image-converter/
 title: "Converseen - The Open Source Batch Image Converter"
 date: 2026-06-05T08:44:15
 lastmod: 2026-06-06T10:53:14

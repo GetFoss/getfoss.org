@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /shotwell-the-open-source-photo-organizer/
 title: "Shotwell: The Open Source Photo Organizer"
 date: 2026-06-06T20:27:29
 description: "Shotwell is a free, open source photo organizer. Ditch cloud lock-in, reject telemetry, and manage your photo library locally."

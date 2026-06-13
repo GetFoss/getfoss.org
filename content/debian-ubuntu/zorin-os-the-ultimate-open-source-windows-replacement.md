@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /zorin-os-the-ultimate-open-source-windows-replacement/
 title: "Zorin OS: The Ultimate Open Source Windows Replacement"
 date: 2026-06-06T12:16:34
 lastmod: 2026-06-06T12:35:49

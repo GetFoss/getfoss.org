@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /tails-os-browse-privately-with-open-source/
 title: "Tails OS - Browse Privately with Open Source"
 date: 2026-06-05T18:13:46
 lastmod: 2026-06-06T16:46:09

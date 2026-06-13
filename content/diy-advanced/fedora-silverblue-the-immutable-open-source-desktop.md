@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-silverblue-the-immutable-open-source-desktop/
 title: "Fedora Silverblue - The Immutable Open Source Desktop"
 date: 2026-06-06T10:38:17
 lastmod: 2026-06-06T21:09:40

@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /ultimaker-cura-the-open-source-3d-slicer/
 title: "UltiMaker Cura - The Open Source 3D Slicer"
 date: 2026-06-04T18:22:17
 lastmod: 2026-06-04T23:19:39

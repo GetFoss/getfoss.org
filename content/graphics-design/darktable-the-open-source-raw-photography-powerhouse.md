@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /darktable-the-open-source-raw-photography-powerhouse/
 title: "darktable: The Open Source RAW Photography Powerhouse"
 date: 2026-06-06T19:28:13
 lastmod: 2026-06-06T20:17:06

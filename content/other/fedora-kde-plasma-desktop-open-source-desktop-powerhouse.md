@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-kde-plasma-desktop-open-source-desktop-powerhouse/
 title: "Fedora KDE Plasma Desktop - Open Source Desktop Powerhouse"
 date: 2026-06-05T20:40:49
 lastmod: 2026-06-06T19:19:24

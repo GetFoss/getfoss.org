@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /whonix-the-ultimate-open-source-anonymity-os/
 title: "Whonix: The Ultimate Open Source Anonymity OS"
 date: 2026-06-06T16:14:35
 lastmod: 2026-06-06T16:24:23

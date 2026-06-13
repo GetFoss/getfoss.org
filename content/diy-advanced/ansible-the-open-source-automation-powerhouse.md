@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /ansible-the-open-source-automation-powerhouse/
 title: "Ansible: The Open Source Automation Powerhouse"
 date: 2026-06-06T21:53:13
 lastmod: 2026-06-06T21:59:02

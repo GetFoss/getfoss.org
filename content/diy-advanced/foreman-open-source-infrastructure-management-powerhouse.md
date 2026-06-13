@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /foreman-open-source-infrastructure-management-powerhouse/
 title: "Foreman: Open Source Infrastructure Management Powerhouse"
 date: 2026-06-06T17:15:57
 description: "Foreman is a free, open source server provisioning and configuration management tool. Automate bare-metal and cloud deployments."

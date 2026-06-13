@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /prusaslicer-the-open-source-3d-slicing-tool/
 title: "PrusaSlicer - The Open Source 3D Slicing Tool"
 date: 2026-06-04T22:39:26
 lastmod: 2026-06-04T23:20:02

@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /rocky-linux-the-open-source-enterprise-powerhouse/
 title: "Rocky Linux: The Open Source Enterprise Powerhouse"
 date: 2026-06-06T18:20:29
 description: "Rocky Linux is a free, open source enterprise Linux distribution built to replace proprietary subscriptions. Secure, stable, and community-driven."

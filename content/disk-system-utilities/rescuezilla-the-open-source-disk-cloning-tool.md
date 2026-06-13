@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /rescuezilla-the-open-source-disk-cloning-tool/
 title: "Rescuezilla - The Open Source Disk Cloning Tool"
 date: 2026-06-04T21:02:34
 lastmod: 2026-06-05T19:11:46

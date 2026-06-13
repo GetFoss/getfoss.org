@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /endeavouros-the-open-source-arch-powerhouse/
 title: "EndeavourOS: The Open Source Arch Powerhouse"
 date: 2026-06-06T15:44:14
 description: "EndeavourOS is a free, open source Arch-based distro rolling out the Titan release. Get cutting-edge Linux without the bloat."

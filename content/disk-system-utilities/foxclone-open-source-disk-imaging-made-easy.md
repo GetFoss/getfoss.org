@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /foxclone-open-source-disk-imaging-made-easy/
 title: "Foxclone: Open Source Disk Imaging Made Easy"
 date: 2026-06-05T19:01:10
 description: "Foxclone is a free, open-source disk imaging and cloning tool. Rescue your system with a simple GUI, no subscriptions or proprietary bloat."

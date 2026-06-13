@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /ddrescue-open-source-data-recovery-powerhouse/
 title: "Ddrescue: Open Source Data Recovery Powerhouse"
 date: 2026-06-05T19:59:59
 lastmod: 2026-06-06T17:54:30

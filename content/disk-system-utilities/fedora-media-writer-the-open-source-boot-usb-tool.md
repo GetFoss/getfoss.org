@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-media-writer-the-open-source-boot-usb-tool/
 title: "Fedora Media Writer - The Open Source Boot USB Tool"
 date: 2026-06-05T11:40:34
 description: "Fedora Media Writer is a free, open-source tool to write ISO images to USB drives. Ditch proprietary bloatware and create bootable drives easily."

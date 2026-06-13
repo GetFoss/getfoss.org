@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /vanilla-os-2-orchid-open-source-immutable-desktop/
 title: "Vanilla OS 2 Orchid - Open Source Immutable Desktop"
 date: 2026-06-06T11:03:14
 lastmod: 2026-06-06T21:11:44

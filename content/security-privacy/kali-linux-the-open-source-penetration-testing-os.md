@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /kali-linux-the-open-source-penetration-testing-os/
 title: "Kali Linux - The Open Source Penetration Testing OS"
 date: 2026-06-04T15:06:30
 lastmod: 2026-06-04T20:52:20

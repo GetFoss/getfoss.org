@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /parrot-os-the-open-source-security-os-alternative/
 title: "Parrot OS - The Open Source Security OS Alternative"
 date: 2026-06-04T19:08:36
 lastmod: 2026-06-05T18:27:02

@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /maas-open-source-bare-metal-provisioning-powerhouse/
 title: "MAAS: Open Source Bare Metal Provisioning Powerhouse"
 date: 2026-06-05T19:42:39
 lastmod: 2026-06-06T17:26:45

@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /ubuntu-desktop-the-open-source-desktop-os-alternative/
 title: "Ubuntu Desktop - The Open Source Desktop OS Alternative"
 date: 2026-06-05T08:08:22
 lastmod: 2026-06-05T20:36:57

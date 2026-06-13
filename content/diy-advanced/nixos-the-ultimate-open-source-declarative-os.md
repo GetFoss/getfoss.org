@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /nixos-the-ultimate-open-source-declarative-os/
 title: "NixOS: The Ultimate Open Source Declarative OS"
 date: 2026-06-06T11:49:42
 lastmod: 2026-06-06T22:01:06

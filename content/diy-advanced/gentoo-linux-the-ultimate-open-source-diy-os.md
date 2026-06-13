@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /gentoo-linux-the-ultimate-open-source-diy-os/
 title: "Gentoo Linux: The Ultimate Open Source DIY OS"
 date: 2026-06-06T14:39:19
 lastmod: 2026-06-09T10:38:37

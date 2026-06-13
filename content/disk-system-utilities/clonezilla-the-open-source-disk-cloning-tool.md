@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /clonezilla-the-open-source-disk-cloning-tool/
 title: "Clonezilla - The Open Source Disk Cloning Tool"
 date: 2026-06-04T18:05:40
 lastmod: 2026-06-04T21:44:47

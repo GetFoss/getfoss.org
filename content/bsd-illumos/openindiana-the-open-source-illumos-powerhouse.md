@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /openindiana-the-open-source-illumos-powerhouse/
 title: "OpenIndiana: The Open Source Illumos Powerhouse"
 date: 2026-06-08T20:16:39
 description: "OpenIndiana is a free, open source illumos operating system for servers and workstations. Escape vendor lock-in with ZFS, DTrace, and real Unix."

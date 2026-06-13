@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /alpine-linux-the-open-source-lightweight-os-alternative/
 title: "Alpine Linux - The Open Source Lightweight OS Alternative"
 date: 2026-06-05T17:50:51
 lastmod: 2026-06-06T13:22:30

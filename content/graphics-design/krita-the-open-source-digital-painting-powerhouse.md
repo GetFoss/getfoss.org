@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /krita-the-open-source-digital-painting-powerhouse/
 title: "Krita: The Open Source Digital Painting Powerhouse"
 date: 2026-06-06T20:39:03
 description: "Krita is a free, open source digital painting application. Ditch Adobe subscriptions, escape vendor lock-in, and create art without restrictions."

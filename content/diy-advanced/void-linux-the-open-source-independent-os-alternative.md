@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /void-linux-the-open-source-independent-os-alternative/
 title: "Void Linux - The Open Source Independent OS Alternative"
 date: 2026-06-05T16:13:26
 lastmod: 2026-06-06T15:24:43

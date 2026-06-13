@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-server-open-source-infrastructure-powerhouse/
 title: "Fedora Server: Open Source Infrastructure Powerhouse"
 date: 2026-06-05T21:00:12
 lastmod: 2026-06-06T19:21:58

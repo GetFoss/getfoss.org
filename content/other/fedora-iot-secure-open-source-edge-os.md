@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-iot-secure-open-source-edge-os/
 title: "Fedora IoT - Secure Open Source Edge OS"
 date: 2026-06-05T22:02:18
 lastmod: 2026-06-05T22:13:19

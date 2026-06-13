@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-coreos-open-source-container-os-powerhouse/
 title: "Fedora CoreOS: Open Source Container OS Powerhouse"
 date: 2026-06-05T21:23:38
 lastmod: 2026-06-06T09:59:27

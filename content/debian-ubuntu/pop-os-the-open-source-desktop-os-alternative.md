@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /pop-os-the-open-source-desktop-os-alternative/
 title: "Pop!_OS - The Open Source Desktop OS Alternative"
 date: 2026-06-04T18:39:09
 lastmod: 2026-06-05T11:36:41

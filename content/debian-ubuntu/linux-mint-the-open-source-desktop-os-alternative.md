@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /linux-mint-the-open-source-desktop-os-alternative/
 title: "Linux Mint - The Open Source Desktop OS Alternative"
 date: 2026-06-05T11:13:41
 lastmod: 2026-06-06T12:37:45

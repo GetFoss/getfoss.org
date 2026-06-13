@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fog-project-the-open-source-network-cloning-tool/
 title: "FOG Project - The Open Source Network Cloning Tool"
 date: 2026-06-04T21:10:16
 lastmod: 2026-06-05T19:47:23

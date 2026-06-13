@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /opensuse-leap-16-the-ultimate-open-source-enterprise-os/
 title: "openSUSE Leap 16: The Ultimate Open Source Enterprise OS"
 date: 2026-06-06T13:06:43
 lastmod: 2026-06-06T22:30:12

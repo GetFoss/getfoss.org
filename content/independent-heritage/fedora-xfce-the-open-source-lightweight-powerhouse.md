@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-xfce-the-open-source-lightweight-powerhouse/
 title: "Fedora Xfce: The Open Source Lightweight Powerhouse"
 date: 2026-06-06T18:57:10
 description: "Fedora Xfce is a fast, free open source desktop. Get a bleeding-edge Linux system without the proprietary bloat, telemetry, or vendor lock-in."

@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /qubes-os-the-ultimate-open-source-security-os/
 title: "Qubes OS: The Ultimate Open Source Security OS"
 date: 2026-06-06T16:36:02
 lastmod: 2026-06-06T16:44:09

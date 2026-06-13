@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /orca-slicer-the-open-source-3d-slicing-alternative/
 title: "Orca Slicer - The Open Source 3D Slicing Alternative"
 date: 2026-06-04T23:02:29
 lastmod: 2026-06-04T23:20:24

@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /talos-linux-the-ultimate-open-source-kubernetes-os/
 title: "Talos Linux: The Ultimate Open Source Kubernetes OS"
 date: 2026-06-06T09:39:48
 description: "Talos Linux is a free open source, immutable OS built exclusively for Kubernetes. Secure, API-driven, and just 80MB. Ditch traditional Linux bloat."

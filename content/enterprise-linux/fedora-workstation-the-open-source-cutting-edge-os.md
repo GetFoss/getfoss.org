@@ -1,4 +1,6 @@
-﻿---
+---
+aliases:
+    - /fedora-workstation-the-open-source-cutting-edge-os/
 title: "Fedora Workstation - The Open Source Cutting-Edge OS"
 date: 2026-06-05T11:27:08
 lastmod: 2026-06-06T13:26:57
