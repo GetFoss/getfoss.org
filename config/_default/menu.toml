@@ -80,3 +80,11 @@ url = "/index.xml"
 weight = 60
 [main.params]
 icon = "rss"
+
+[[main]]
+identifier = "privacy"
+name = "Privacy"
+url = "/privacy/"
+weight = 70
+[main.params]
+icon = "shield"
