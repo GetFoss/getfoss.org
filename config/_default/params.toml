@@ -10,6 +10,9 @@ mainSections = [
   "disk-system-utilities",
   "graphics-design",
   "engineering",
+  "audio-video",
+  "office-productivity",
+  "password-managers",
   "bsd-illumos",
   "independent-heritage",
   "other"
