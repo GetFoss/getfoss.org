@@ -5,4 +5,5 @@ name = "Privacy"
 url = "/privacy/"
 weight = 70
 [main.params]
-icon = "shield"
+icon = "lock"
+
