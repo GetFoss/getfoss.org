@@ -32,9 +32,9 @@ favicon        = "/images/GetFOSS.webp"
 [widgets]
     homepage = [
         { type = "search" },
-        { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
+        { type = "archives", params = { limit = 5 } },
+        { type = "tag-cloud", params = { limit = 15 } },
     ]
     page     = [{ type = "toc" }]
 
