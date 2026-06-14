@@ -1,5 +1,6 @@
 twitter = "GetFoss"
 author = "GetFoss"
+description = "GetFOSS.org is your guide to Free and Open Source Software. Discover powerful, privacy-respecting alternatives to proprietary tools through in-depth reviews and practical migration guides. Take back control of your digital life."
 
 mainSections = [
   "debian-ubuntu",
