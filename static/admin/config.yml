@@ -18,6 +18,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["debian-ubuntu"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -33,6 +34,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["enterprise-linux"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -48,6 +50,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["security-privacy"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -63,6 +66,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["diy-advanced"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -78,6 +82,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["disk-system-utilities"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -93,6 +98,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["graphics-design"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -108,6 +114,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["engineering"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -123,6 +130,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["bsd-illumos"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -138,6 +146,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["independent-heritage"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -153,7 +162,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["other"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Aliases (old URLs)", name: "aliases", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-
