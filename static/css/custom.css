@@ -1,23 +1,61 @@
 /* Category Colors - Light Mode */
-.article-list--tile a[href="/categories/debian-ubuntu/"] { background-color: #fce4ec !important; color: #880e4f !important; }
-.article-list--tile a[href="/categories/enterprise-linux/"] { background-color: #e3f2fd !important; color: #0d47a1 !important; }
-.article-list--tile a[href="/categories/security-privacy/"] { background-color: #ffebee !important; color: #b71c1c !important; }
-.article-list--tile a[href="/categories/diy-advanced/"] { background-color: #f3e5f5 !important; color: #4a148c !important; }
-.article-list--tile a[href="/categories/disk-system-utilities/"] { background-color: #e0f2f1 !important; color: #004d40 !important; }
-.article-list--tile a[href="/categories/graphics-design/"] { background-color: #e8f5e9 !important; color: #1b5e20 !important; }
-.article-list--tile a[href="/categories/engineering/"] { background-color: #fff8e1 !important; color: #f57f17 !important; }
-.article-list--tile a[href="/categories/bsd-illumos/"] { background-color: #e0f7fa !important; color: #006064 !important; }
-.article-list--tile a[href="/categories/independent-heritage/"] { background-color: #fff3e0 !important; color: #e65100 !important; }
-.article-list--tile a[href="/categories/other/"] { background-color: #f5f5f5 !important; color: #212121 !important; }
+.article-list--tile a[href="/categories/debian-ubuntu/"], .article-list--tile a[href="/categories/debian-ubuntu/"] .article-details { background-color: #fce4ec !important; }
+.article-list--tile a[href="/categories/debian-ubuntu/"] .article-title { color: #880e4f !important; }
+
+.article-list--tile a[href="/categories/enterprise-linux/"], .article-list--tile a[href="/categories/enterprise-linux/"] .article-details { background-color: #e3f2fd !important; }
+.article-list--tile a[href="/categories/enterprise-linux/"] .article-title { color: #0d47a1 !important; }
+
+.article-list--tile a[href="/categories/security-privacy/"], .article-list--tile a[href="/categories/security-privacy/"] .article-details { background-color: #ffebee !important; }
+.article-list--tile a[href="/categories/security-privacy/"] .article-title { color: #b71c1c !important; }
+
+.article-list--tile a[href="/categories/diy-advanced/"], .article-list--tile a[href="/categories/diy-advanced/"] .article-details { background-color: #f3e5f5 !important; }
+.article-list--tile a[href="/categories/diy-advanced/"] .article-title { color: #4a148c !important; }
+
+.article-list--tile a[href="/categories/disk-system-utilities/"], .article-list--tile a[href="/categories/disk-system-utilities/"] .article-details { background-color: #e0f2f1 !important; }
+.article-list--tile a[href="/categories/disk-system-utilities/"] .article-title { color: #004d40 !important; }
+
+.article-list--tile a[href="/categories/graphics-design/"], .article-list--tile a[href="/categories/graphics-design/"] .article-details { background-color: #e8f5e9 !important; }
+.article-list--tile a[href="/categories/graphics-design/"] .article-title { color: #1b5e20 !important; }
+
+.article-list--tile a[href="/categories/engineering/"], .article-list--tile a[href="/categories/engineering/"] .article-details { background-color: #fff8e1 !important; }
+.article-list--tile a[href="/categories/engineering/"] .article-title { color: #f57f17 !important; }
+
+.article-list--tile a[href="/categories/bsd-illumos/"], .article-list--tile a[href="/categories/bsd-illumos/"] .article-details { background-color: #e0f7fa !important; }
+.article-list--tile a[href="/categories/bsd-illumos/"] .article-title { color: #006064 !important; }
+
+.article-list--tile a[href="/categories/independent-heritage/"], .article-list--tile a[href="/categories/independent-heritage/"] .article-details { background-color: #fff3e0 !important; }
+.article-list--tile a[href="/categories/independent-heritage/"] .article-title { color: #e65100 !important; }
+
+.article-list--tile a[href="/categories/other/"], .article-list--tile a[href="/categories/other/"] .article-details { background-color: #f5f5f5 !important; }
+.article-list--tile a[href="/categories/other/"] .article-title { color: #212121 !important; }
 
 /* Category Colors - Dark Mode */
-[data-scheme="dark"] .article-list--tile a[href="/categories/debian-ubuntu/"] { background-color: #880e4f !important; color: #fce4ec !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/enterprise-linux/"] { background-color: #0d47a1 !important; color: #e3f2fd !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/security-privacy/"] { background-color: #b71c1c !important; color: #ffebee !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/diy-advanced/"] { background-color: #4a148c !important; color: #f3e5f5 !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/disk-system-utilities/"] { background-color: #004d40 !important; color: #e0f2f1 !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/graphics-design/"] { background-color: #1b5e20 !important; color: #e8f5e9 !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/engineering/"] { background-color: #f57f17 !important; color: #fff8e1 !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/bsd-illumos/"] { background-color: #006064 !important; color: #e0f7fa !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/independent-heritage/"] { background-color: #e65100 !important; color: #fff3e0 !important; }
-[data-scheme="dark"] .article-list--tile a[href="/categories/other/"] { background-color: #424242 !important; color: #f5f5f5 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/debian-ubuntu/"], [data-scheme="dark"] .article-list--tile a[href="/categories/debian-ubuntu/"] .article-details { background-color: #880e4f !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/debian-ubuntu/"] .article-title { color: #fce4ec !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/enterprise-linux/"], [data-scheme="dark"] .article-list--tile a[href="/categories/enterprise-linux/"] .article-details { background-color: #0d47a1 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/enterprise-linux/"] .article-title { color: #e3f2fd !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/security-privacy/"], [data-scheme="dark"] .article-list--tile a[href="/categories/security-privacy/"] .article-details { background-color: #b71c1c !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/security-privacy/"] .article-title { color: #ffebee !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/diy-advanced/"], [data-scheme="dark"] .article-list--tile a[href="/categories/diy-advanced/"] .article-details { background-color: #4a148c !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/diy-advanced/"] .article-title { color: #f3e5f5 !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/disk-system-utilities/"], [data-scheme="dark"] .article-list--tile a[href="/categories/disk-system-utilities/"] .article-details { background-color: #004d40 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/disk-system-utilities/"] .article-title { color: #e0f2f1 !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/graphics-design/"], [data-scheme="dark"] .article-list--tile a[href="/categories/graphics-design/"] .article-details { background-color: #1b5e20 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/graphics-design/"] .article-title { color: #e8f5e9 !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/engineering/"], [data-scheme="dark"] .article-list--tile a[href="/categories/engineering/"] .article-details { background-color: #f57f17 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/engineering/"] .article-title { color: #fff8e1 !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/bsd-illumos/"], [data-scheme="dark"] .article-list--tile a[href="/categories/bsd-illumos/"] .article-details { background-color: #006064 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/bsd-illumos/"] .article-title { color: #e0f7fa !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/independent-heritage/"], [data-scheme="dark"] .article-list--tile a[href="/categories/independent-heritage/"] .article-details { background-color: #e65100 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/independent-heritage/"] .article-title { color: #fff3e0 !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/other/"], [data-scheme="dark"] .article-list--tile a[href="/categories/other/"] .article-details { background-color: #424242 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/other/"] .article-title { color: #f5f5f5 !important; }
