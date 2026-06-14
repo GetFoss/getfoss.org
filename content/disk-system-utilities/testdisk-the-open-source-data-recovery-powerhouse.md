@@ -48,7 +48,7 @@ Alternatively, if the partition table is destroyed beyond logical repair and onl
 - **Official Website:** [TestDisk Wiki](https://www.cgsecurity.org/wiki/TestDisk)
 - **Documentation:** [TestDisk Documentation](https://www.cgsecurity.org/testdisk_doc/)
 - **Downloads:** [TestDisk Download](https://www.cgsecurity.org/wiki/TestDisk_Download)
-- **Release Notes (7.3 WIP):** [TestDisk 7.3 Release Wiki](https://www.cgsecurity.org/mw/index.php?title=TestDisk_7.3_Release&action=edit&redlink=1)
+- **Release Notes (7.3 WIP):** [TestDisk 7.3 Release Wiki](https://git.cgsecurity.org/cgit/testdisk/)
 
 **Quick Start:**
 
