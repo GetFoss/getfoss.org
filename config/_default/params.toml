@@ -1,3 +1,6 @@
+twitter = "GetFoss"
+author = "GetFoss"
+
 mainSections = [
   "debian-ubuntu",
   "enterprise-linux",
