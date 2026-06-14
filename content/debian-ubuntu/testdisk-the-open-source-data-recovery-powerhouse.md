@@ -90,3 +90,4 @@ TestDisk relies on logical structures. If the physical drive is failing and thro
 ## Final Assessment
 
 TestDisk is an essential tool for logical data recovery. It handles partition table reconstruction and boot sector repair with precision, free of charge. It falls short for physical drive failures where a raw imager like GNU ddrescue is required first. For any administrator dealing with unbootable systems or accidentally deleted partitions, TestDisk is a mandatory addition to the recovery toolkit.
+
