@@ -1,7 +1,7 @@
 ---
 title: 'TestDisk: The Open Source Data Recovery Powerhouse'
 description: TestDisk is a free, open source data recovery utility designed to recover lost partitions and undelete files. Run it on DOS, Windows, Linux, and macOS to fix boot sectors and rescue data.
-date: 2026-06-14T13:25
+date: 2026-06-14T12:00:00+00:00
 draft: false
 image: /images/testdisk-linux.webp
 tags:
