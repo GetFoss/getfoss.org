@@ -72,3 +72,11 @@ name = "Bluesky"
 url = "https://bsky.app/profile/getfoss.org"
 [social.params]
 icon = "brand-bluesky"
+
+[[main]]
+identifier = "rss"
+name = "RSS Feed"
+url = "/index.xml"
+weight = 60
+[main.params]
+icon = "rss"
