@@ -1,14 +1,14 @@
 /* Category Colors - Light Mode */
-.article-list--tile a[href="/categories/debian-ubuntu/"] { background-color: #fce4ec !important; color: #880e4f !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/enterprise-linux/"] { background-color: #e3f2fd !important; color: #0d47a1 !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/security-privacy/"] { background-color: #ffebee !important; color: #b71c1c !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/diy-advanced/"] { background-color: #f3e5f5 !important; color: #4a148c !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/disk-system-utilities/"] { background-color: #e0f2f1 !important; color: #004d40 !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/graphics-design/"] { background-color: #e8f5e9 !important; color: #1b5e20 !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/engineering/"] { background-color: #fff8e1 !important; color: #f57f17 !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/bsd-illumos/"] { background-color: #e0f7fa !important; color: #006064 !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/independent-heritage/"] { background-color: #fff3e0 !important; color: #e65100 !important; display: block; border-radius: var(--card-border-radius, 10px); }
-.article-list--tile a[href="/categories/other/"] { background-color: #f5f5f5 !important; color: #212121 !important; display: block; border-radius: var(--card-border-radius, 10px); }
+.article-list--tile a[href="/categories/debian-ubuntu/"] { background-color: #fce4ec !important; color: #880e4f !important; }
+.article-list--tile a[href="/categories/enterprise-linux/"] { background-color: #e3f2fd !important; color: #0d47a1 !important; }
+.article-list--tile a[href="/categories/security-privacy/"] { background-color: #ffebee !important; color: #b71c1c !important; }
+.article-list--tile a[href="/categories/diy-advanced/"] { background-color: #f3e5f5 !important; color: #4a148c !important; }
+.article-list--tile a[href="/categories/disk-system-utilities/"] { background-color: #e0f2f1 !important; color: #004d40 !important; }
+.article-list--tile a[href="/categories/graphics-design/"] { background-color: #e8f5e9 !important; color: #1b5e20 !important; }
+.article-list--tile a[href="/categories/engineering/"] { background-color: #fff8e1 !important; color: #f57f17 !important; }
+.article-list--tile a[href="/categories/bsd-illumos/"] { background-color: #e0f7fa !important; color: #006064 !important; }
+.article-list--tile a[href="/categories/independent-heritage/"] { background-color: #fff3e0 !important; color: #e65100 !important; }
+.article-list--tile a[href="/categories/other/"] { background-color: #f5f5f5 !important; color: #212121 !important; }
 
 /* Category Colors - Dark Mode */
 [data-scheme="dark"] .article-list--tile a[href="/categories/debian-ubuntu/"] { background-color: #880e4f !important; color: #fce4ec !important; }
