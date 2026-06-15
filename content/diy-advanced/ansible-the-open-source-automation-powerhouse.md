@@ -1,10 +1,8 @@
 ---
-aliases:
-    - /ansible-the-open-source-automation-powerhouse/
-title: "Ansible: The Open Source Automation Powerhouse"
-date: 2026-06-06T21:53:13
-lastmod: 2026-06-06T21:59:02
-description: "Ansible is a free, open source IT automation and config management tool. Ditch proprietary bloat and control your infrastructure with code."
+title: 'Ansible: The Open Source Automation Powerhouse'
+description: Ansible is a free, open source IT automation and config management tool. Ditch proprietary bloat and control your infrastructure with code.
+date: 2026-06-06T21:53:00+03:00
+image: /images/ansible-webp.webp
 categories:
   - diy-advanced
 tags:
@@ -12,9 +10,11 @@ tags:
   - Advanced
   - Linux
   - Security
-slug: "ansible-the-open-source-automation-powerhouse"
+aliases:
+  - /ansible-the-open-source-automation-powerhouse/
 comments: false
-image: "/images/ansible-webp.webp"
+lastmod: 2026-06-06T21:59:02
+slug: ansible-the-open-source-automation-powerhouse
 ---
 
 <p>Ansible is a radically simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration. It replaces the overpriced, agent-heavy proprietary bloat like Chef Enterprise and Puppet Server. No subscriptions. No forced telemetry. No vendor lock-in. You describe your infrastructure in YAML, and Ansible makes it so. <span style="color: #e03e2d;"><a href="https://ansible.com/" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">Visit Official Website</a></span>.</p>
@@ -62,11 +62,10 @@ image: "/images/ansible-webp.webp"
 <li><strong>Repository:</strong> <span style="color: #e03e2d;"><a href="https://github.com/ansible/ansible" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">View Source Code on GitHub</a></span></li>
 <li><strong>Documentation:</strong> <span style="color: #e03e2d;"><a href="https://docs.ansible.com/ansible/latest/" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">Read Latest Docs</a></span></li>
 </ul>
-<h2>Open Source Alternatives</h2>
-<ul>
-<li><strong>SaltStack (Salt):</strong> Incredibly fast event-driven automation. Open source, but heavily pushed toward the enterprise licensing model now. Requires heavy agents (ZeroMQ) on every node.</li>
-<li><strong>Puppet:</strong> The old guard. Uses its own domain-specific language (not YAML). Open source version exists, but it's heavily gimped compared to the proprietary enterprise tier. Agent-heavy.</li>
-</ul>
-<p>Stop renting access to your own infrastructure. Get software. Get freedom. Get FOSS.</p>
 
+### Open Source Alternatives
 
+- [**SaltStack (Salt)**](https://github.com/saltstack/salt)**:** Incredibly fast event-driven automation. Open source, but heavily pushed toward the enterprise licensing model now. Requires heavy agents (ZeroMQ) on every node.
+- [**Puppet**](https://github.com/puppetlabs/puppet)**:** The old guard. Uses its own domain-specific language (not YAML). Open source version exists, but it's heavily gimped compared to the proprietary enterprise tier. Agent-heavy.
+
+Stop renting access to your own infrastructure. Get software. Get freedom. Get FOSS.
