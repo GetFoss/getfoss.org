@@ -70,7 +70,7 @@ slug: openindiana-the-open-source-illumos-powerhouse
 <h2>Open Source Alternatives</h2>
 <ul>
 <li><strong><span style="color: #e03e2d;"><a href="https://getfoss.org/bsd-illumos/omnios-the-illumos-distribution-for-resilient-zfs-storage-and-zones/" target="_blank" rel="noopener" style="color: #e03e2d;">OmniOS</a></span>:</strong> A stripped-down, minimalist illumos distro. Perfect for headless ZFS storage or infrastructure servers where you don't want a desktop or bloated packages. Less hand-holding than OI.</li>
-<li><strong>SmartOS:</strong> Lives entirely in RAM. Boots from a USB/ISO and runs Zones/KVM VMs via Triton. Incredible for multi-tenant cloud deployments, but terrible if you want a persistent local OS install.</li>
+<li><strong><span style="color: #e03e2d;"><a href="https://getfoss.org/bsd-illumos/smartos-the-illumos-hypervisor-running-entirely-from-ram/" target="_blank" rel="noopener" style="color: #e03e2d;">SmartOS</a></span>:</strong> Lives entirely in RAM. Boots from a USB/ISO and runs Zones/KVM VMs via Triton. Incredible for multi-tenant cloud deployments, but terrible if you want a persistent local OS install.</li>
 <li><strong><span style="color: #e03e2d;"><a href="https://www.getfoss.org/freebsd-the-open-source-unix-powerhouse" target="_blank" rel="noopener" style="color: #e03e2d;">FreeBSD</a></span>:</strong> The BSD alternative. Great ZFS support and massive ports collection, but it lacks the deep kernel observability of DTrace and the native Zones integration that illumos provides out of the box.</li>
 </ul>
 <p>Stop renting your Unix from corporations that hold your infrastructure hostage. Get software. Get freedom. Get FOSS.</p>
