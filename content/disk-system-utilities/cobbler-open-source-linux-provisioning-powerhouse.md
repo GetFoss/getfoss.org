@@ -1,9 +1,8 @@
 ---
-aliases:
-    - /cobbler-open-source-linux-provisioning-powerhouse/
-title: "Cobbler: Open Source Linux Provisioning Powerhouse"
-date: 2026-06-06T16:54:03
-description: "Cobbler is a free, open source Linux installation server for fast network installs. Automate PXE, DHCP, and DNS provisioning."
+title: 'Cobbler: Open Source Linux Provisioning Powerhouse'
+description: Cobbler is a free, open source Linux installation server for fast network installs. Automate PXE, DHCP, and DNS provisioning.
+date: 2026-06-06T16:54:00+03:00
+image: /images/cobbler-webp.webp
 categories:
   - disk-system-utilities
 tags:
@@ -11,9 +10,10 @@ tags:
   - Server
   - Utilities
   - Debian
-slug: "cobbler-open-source-linux-provisioning-powerhouse"
+aliases:
+  - /cobbler-open-source-linux-provisioning-powerhouse/
 comments: false
-image: "/images/cobbler-webp.webp"
+slug: cobbler-open-source-linux-provisioning-powerhouse
 ---
 
 <p>If you're still walking around the data center with a USB drive to install Linux, you're doing it wrong. Cobbler is a Linux installation server that automates network installations via PXE. It handles DHCP, DNS, TFTP, and kickstart files so you don't have to script them manually. It replaces the bloated, proprietary enterprise provisioning suites that charge you per node for the privilege of automating your own hardware. It's FOSS, it's fast, and it doesn't phone home. <span style="color: #e03e2d;"><a href="https://cobbler.github.io/" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">Visit Official Website</a></span>.</p>
@@ -56,11 +56,11 @@ image: "/images/cobbler-webp.webp"
 </ul>
 <h3>Source Code</h3>
 <p><a href="https://github.com/cobbler/cobbler/releases" target="_blank" rel="noopener"><span style="color: #e03e2d;">Cobbler Release</span></a> | <span style="color: #e03e2d;"><a href="https://github.com/cobbler/cobbler" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">View Source Code on GitHub</a></span></p>
-<h2>Open Source Alternatives</h2>
-<ul>
-<li><strong>Foreman:</strong> A much heavier, Rails-based lifecycle management tool. Good if you want a massive GUI and deep Puppet integration, but it's overkill if you just want to PXE boot boxes.</li>
-<li><strong><span style="color: #e03e2d;"><a href="https://www.getfoss.org/maas-open-source-bare-metal-provisioning-powerhouse" target="_blank" rel="noopener" style="color: #e03e2d;">MAAS</a></span>:</strong> Canonical's Metal as a Service. Powerful for large-scale cloud-like provisioning, but it's tightly coupled to the Ubuntu ecosystem. If you want vendor neutrality, look elsewhere.</li>
-</ul>
+
+### Open Source Alternatives
+
+- [**Foreman**](https://getfoss.org/diy-advanced/foreman-open-source-infrastructure-management-powerhouse/)**:** A much heavier, Rails-based lifecycle management tool. Good if you want a massive GUI and deep Puppet integration, but it's overkill if you just want to PXE boot boxes.
+- [**MAAS**](https://www.getfoss.org/maas-open-source-bare-metal-provisioning-powerhouse)**:** Canonical's Metal as a Service. Powerful for large-scale cloud-like provisioning, but it's tightly coupled to the Ubuntu ecosystem. If you want vendor neutrality, look elsewhere.
+
+
 <p>Ditch the proprietary restrictions and automate your infrastructure the right way. Get software. Get freedom. Get FOSS.</p>
-
-
