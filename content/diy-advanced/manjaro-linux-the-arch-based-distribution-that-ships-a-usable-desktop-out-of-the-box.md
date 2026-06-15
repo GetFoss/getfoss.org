@@ -76,7 +76,6 @@ If an update causes problems, Manjaro integrates with Timeshift for system snaps
 
 ```plain
 dd if=manjaro-kde-*.iso of=/dev/sdX bs=4M status=progress && sync
-
 ```
 
 Replace `/dev/sdX` with your actual USB device. Not a partition. The device.
@@ -88,7 +87,6 @@ Replace `/dev/sdX` with your actual USB device. Not a partition. The device.
 ```plain
 sudo pacman-mirrors --fasttrack
 sudo pacman -Syu
-
 ```
 
 5. **Install the AUR helper** if you need AUR access:
@@ -98,7 +96,6 @@ sudo pacman -S --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-
 ```
 
 6. **Set up a snapshot tool** before you accumulate installed packages:
@@ -106,14 +103,13 @@ makepkg -si
 ```plain
 sudo pacman -S timeshift
 sudo timeshift --create --comments "Fresh install"
-
 ```
 
 ## Open Source Alternatives
 
-- **Arch Linux:** The upstream distribution. No hand-holding, no staged repositories, no default desktop configuration. You build exactly what you want. Better for users who understand what every package on their system does and prefer to make their own decisions about update timing.
-- **EndeavourOS:** Another Arch-based distribution with a simpler approach than Manjaro. Ships a Calamares installer and offers multiple desktop choices. Stays closer to upstream Arch repos than Manjaro does—no separate staging. Less divergence from Arch means fewer Manjaro-specific surprises.
-- **openSUSE Tumbleweed:** A rolling-release distribution that is not Arch-based. Uses RPM and Zypper. Has a robust testing infrastructure through the Open Build Service. Worth considering if you want rolling-release with a different package ecosystem and a stronger emphasis on automated quality assurance.
+- [**Arch Linux**](https://getfoss.org/diy-advanced/arch-linux-the-open-source-diy-os-alternative/)**:** The upstream distribution. No hand-holding, no staged repositories, no default desktop configuration. You build exactly what you want. Better for users who understand what every package on their system does and prefer to make their own decisions about update timing.
+- [**EndeavourOS**](https://getfoss.org/diy-advanced/endeavouros-the-open-source-arch-powerhouse/)**:** Another Arch-based distribution with a simpler approach than Manjaro. Ships a Calamares installer and offers multiple desktop choices. Stays closer to upstream Arch repos than Manjaro does—no separate staging. Less divergence from Arch means fewer Manjaro-specific surprises.
+- [**openSUSE Tumbleweed**](https://getfoss.org/enterprise-linux/opensuse-tumbleweed-the-ultimate-open-source-rolling-distro/)**:** A rolling-release distribution that is not Arch-based. Uses RPM and Zypper. Has a robust testing infrastructure through the Open Build Service. Worth considering if you want rolling-release with a different package ecosystem and a stronger emphasis on automated quality assurance.
 
 ## Who Should Use It?
 
