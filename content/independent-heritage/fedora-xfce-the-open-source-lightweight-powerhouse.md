@@ -1,9 +1,8 @@
 ---
-aliases:
-    - /fedora-xfce-the-open-source-lightweight-powerhouse/
-title: "Fedora Xfce: The Open Source Lightweight Powerhouse"
-date: 2026-06-06T18:57:10
-description: "Fedora Xfce is a fast, free open source desktop. Get a bleeding-edge Linux system without the proprietary bloat, telemetry, or vendor lock-in."
+title: 'Fedora Xfce: The Open Source Lightweight Powerhouse'
+description: Fedora Xfce is a fast, free open source desktop. Get a bleeding-edge Linux system without the proprietary bloat, telemetry, or vendor lock-in.
+date: 2026-06-06T18:57:00+03:00
+image: /images/fedora-xfce-webp.webp
 categories:
   - independent-heritage
 tags:
@@ -11,9 +10,10 @@ tags:
   - RPM
   - Minimalism
   - Advanced
-slug: "fedora-xfce-the-open-source-lightweight-powerhouse"
+aliases:
+  - /fedora-xfce-the-open-source-lightweight-powerhouse/
 comments: false
-image: "/images/fedora-xfce-webp.webp"
+slug: fedora-xfce-the-open-source-lightweight-powerhouse
 ---
 
 <p>Fedora Xfce is what happens when you take a bleeding-edge Linux distribution and strip away the bloat. It's the perfect marriage of Fedora's cutting-edge stack and the Xfce desktop environment—a workspace that actually respects your hardware and your freedom. No forced telemetry. No cloud accounts. No proprietary candy crush pre-installed. Just a fast, traditional desktop that gets out of your way. <a href="https://fedoraproject.org/spins/xfce/" target="_blank" rel="noopener noreferrer"><span style="color: #e03e2d;">Visit Official Website</span></a>.</p>
@@ -67,11 +67,10 @@ image: "/images/fedora-xfce-webp.webp"
 <li><span style="color: #e03e2d;"><a href="https://docs.fedoraproject.org/en-US/fedora/f44/release-notes/" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">View Fedora 44 Release Notes</a></span></li>
 <li><span style="color: #e03e2d;"><a href="https://docs.xfce.org/" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">View Xfce Documentation</a></span></li>
 </ul>
-<h2>Open Source Alternatives</h2>
-<ul>
-<li><strong><a href="https://www.getfoss.org/linux-mint-the-open-source-desktop-os-alternative" target="_blank" rel="noopener"><span style="color: #e03e2d;">Linux Mint Xfce</span></a>:</strong> Based on Ubuntu LTS. Slower stack, but ridiculously stable. Good if you want long-term support over Fedora's bleeding edge.</li>
-<li><strong>Manjaro Xfce:</strong> Arch-based. Rolling release. Even more cutting-edge than Fedora, but you better know how to fix a broken Pacman update when it happens.</li>
-</ul>
-<p>Ditch the proprietary bloat and take back your hardware. Get software. Get freedom. Get FOSS.</p>
 
+### Open Source Alternatives
 
+- [**Linux Mint Xfce**](https://www.getfoss.org/linux-mint-the-open-source-desktop-os-alternative)**:** Based on Ubuntu LTS. Slower stack, but ridiculously stable. Good if you want long-term support over Fedora's bleeding edge.
+- [**Manjaro Xfce**](https://getfoss.org/diy-advanced/manjaro-linux-the-arch-based-distribution-that-ships-a-usable-desktop-out-of-the-box/)**:** Arch-based. Rolling release. Even more cutting-edge than Fedora, but you better know how to fix a broken Pacman update when it happens.
+
+Ditch the proprietary bloat and take back your hardware. Get software. Get freedom. Get FOSS.
