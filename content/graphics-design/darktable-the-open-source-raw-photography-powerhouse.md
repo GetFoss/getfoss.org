@@ -1,10 +1,8 @@
 ---
-aliases:
-    - /darktable-the-open-source-raw-photography-powerhouse/
-title: "darktable: The Open Source RAW Photography Powerhouse"
-date: 2026-06-06T19:28:13
-lastmod: 2026-06-06T20:17:06
-description: "darktable is a free, open source RAW developer and photo workflow app. Ditch Adobe subscriptions and process photos without limits."
+title: 'darktable: The Open Source RAW Photography Powerhouse'
+description: darktable is a free, open source RAW developer and photo workflow app. Ditch Adobe subscriptions and process photos without limits.
+date: 2026-06-06T19:28:00+03:00
+image: /images/darktable-webp.webp
 categories:
   - graphics-design
 tags:
@@ -12,9 +10,11 @@ tags:
   - Photo Editing
   - Linux
   - Privacy
-slug: "darktable-the-open-source-raw-photography-powerhouse"
+aliases:
+  - /darktable-the-open-source-raw-photography-powerhouse/
 comments: false
-image: "/images/darktable-webp.webp"
+lastmod: 2026-06-06T20:17:06
+slug: darktable-the-open-source-raw-photography-powerhouse
 ---
 
 <p>darktable is the virtual darkroom photographers turn to when they get sick of paying the Adobe toll. It's a free, open-source RAW developer, light table, and photography workflow application. It handles everything from tethered shooting to non-destructive editing. No subscriptions. No cloud dependency. No sending your portfolio to a corporate data farm. <span style="color: #e03e2d;"><a href="https://www.darktable.org" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">Visit Official Website</a></span>.</p>
@@ -62,17 +62,16 @@ image: "/images/darktable-webp.webp"
 <h3>Fixing macOS Gatekeeper Nonsense</h3>
 <p>Apple hates apps that don't pay the App Store tax. If macOS claims darktable "is damaged" or "can't be opened because Apple cannot verify it", strip the quarantine flag. Open a terminal and run:</p>
 <ul>
-<li>If the image is not mounted: <code>xattr -d com.apple.quarantine ~/Downloads/darktable*.dmg</code></li>
+<li>If the image is not mounted: <code>xattr -d com.apple.quarantine \~/Downloads/darktable\*.dmg</code></li>
 <li>If darktable is already installed: <code>xattr -dr com.apple.quarantine /Applications/darktable.app</code></li>
 </ul>
 <h3>Source Code</h3>
 <p><span style="color: #e03e2d;"><a href="https://github.com/darktable-org/darktable/releases/download/release-5.4.1/darktable-5.4.1.tar.xz" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">Download darktable-5.4.1.tar.xz</a></span></p>
 <p><span style="color: #e03e2d;"><a href="https://github.com/darktable-org/darktable" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">View Source Code on GitHub</a></span></p>
-<h2>Open Source Alternatives</h2>
-<ul>
-<li><strong>RawTherapee:</strong> Incredible RAW decoding and heavy on the pixel-pushing math, but lacks the full DAM (Digital Asset Management) workflow of darktable.</li>
-<li><strong><a href="https://www.getfoss.org/digikam-open-source-photo-management-powerhouse" target="_blank" rel="noopener"><span style="color: #e03e2d;">digiKam</span></a>:</strong> Pure asset management king. Great for organizing, but you'll want darktable or RawTherapee for the actual RAW developing.</li>
-</ul>
-<p>Stop renting access to your own photos. Get software. Get freedom. Get FOSS.</p>
 
+### Open Source Alternatives
 
+- [**RawTherapee**](https://getfoss.org/graphics-design/rawtherapee-taking-control-of-your-raw-image-processing/)**:** Incredible RAW decoding and heavy on the pixel-pushing math, but lacks the full DAM (Digital Asset Management) workflow of darktable.
+- [**digiKam**](https://www.getfoss.org/digikam-open-source-photo-management-powerhouse)**:** Pure asset management king. Great for organizing, but you'll want darktable or RawTherapee for the actual RAW developing.
+
+Stop renting access to your own photos. Get software. Get freedom. Get FOSS.
