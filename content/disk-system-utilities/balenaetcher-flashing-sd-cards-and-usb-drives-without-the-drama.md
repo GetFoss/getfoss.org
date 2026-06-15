@@ -45,7 +45,7 @@ The primary use case is provisioning Single Board Computers (SBCs) like Raspberr
 
 A typical workflow: Download a Ubuntu Server `.iso` or a Raspberry Pi OS `.zip`. Insert the target SD card. Launch Etcher. Select the image, select the drive, click Flash. The utility handles decompression, writing, and verification.
 
-One operational note: The validation phase takes as long as the write phase. Do not interrupt it. If the validation fails, the media is likely faulty—try a different SD card.
+> **One operational note:** The validation phase takes as long as the write phase. Do not interrupt it. If the validation fails, the media is likely faulty—try a different SD card.
 
 ## Download & Installation
 
