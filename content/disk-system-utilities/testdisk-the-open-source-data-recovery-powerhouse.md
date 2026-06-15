@@ -1,11 +1,11 @@
 ---
 title: 'TestDisk: The Open Source Data Recovery Powerhouse'
 description: TestDisk is a free, open source data recovery utility designed to recover lost partitions and undelete files. Run it on DOS, Windows, Linux, and macOS to fix boot sectors and rescue data.
-categories:
-  - disk-system-utilities
 date: 2026-06-14T16:35:00+03:00
 draft: false
 image: /images/testdisk-linux.webp
+categories:
+  - disk-system-utilities
 tags:
   - Recovery
   - Utilities
@@ -67,9 +67,9 @@ Alternatively, if the partition table is destroyed beyond logical repair and onl
 
 ## Open Source Alternatives
 
-- **GNU ddrescue:** A raw imaging tool. It does not understand file systems or partitions; it clones the entire disk block-by-block, bypassing read errors. Use ddrescue to create a disk image first, then run TestDisk on the image.
-- **Safecopy:** Another disk imaging tool similar to ddrescue, but uses a different algorithm for handling bad sectors.
-- **PhotoRec:** Included with TestDisk, but worth noting as a standalone alternative if partition recovery is impossible and only file extraction is required.
+- [**GNU ddrescue**](https://getfoss.org/disk-system-utilities/ddrescue-open-source-data-recovery-powerhouse/)**:** A raw imaging tool. It does not understand file systems or partitions; it clones the entire disk block-by-block, bypassing read errors. Use ddrescue to create a disk image first, then run TestDisk on the image.
+- [**Safecopy**](https://getfoss.org/disk-system-utilities/safecopy-open-source-data-recovery-powerhouse/)**:** Another disk imaging tool similar to ddrescue, but uses a different algorithm for handling bad sectors.
+- [**PhotoRec**](https://www.cgsecurity.org/wiki/PhotoRec)**:** Included with TestDisk, but worth noting as a standalone alternative if partition recovery is impossible and only file extraction is required.
 
 ## Who Should Use It?
 
