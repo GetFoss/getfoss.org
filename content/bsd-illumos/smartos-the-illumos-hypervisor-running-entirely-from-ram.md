@@ -72,7 +72,7 @@ _From the global zone:_
 
 - Use `imgadm` to import VM images.
 - Use `vmadm` to create native SmartOS zones and HVM (KVM/Bhyve) instances.
-- Use `pkgin` in the global zone (installing under `/opt/tools`) and in non‑global zones (under `/opt/local`) to add software. Configuration lives in `/opt/local/etc` (or `/opt/tools/etc`), with pristine examples preserved in `/opt/local/share/examples`, so updates don’t overwrite custom configs.【turn0search0】
+- Use `pkgin` in the global zone (installing under `/opt/tools`) and in non‑global zones (under `/opt/local`) to add software. Configuration lives in `/opt/local/etc` (or `/opt/tools/etc`), with pristine examples preserved in `/opt/local/share/examples`, so updates don’t overwrite custom configs.
 
 _Example workflow for a mixed workload:_
 
@@ -82,9 +82,9 @@ _Example workflow for a mixed workload:_
 
 _For KVM specifically, ensure:_
 
-- Intel CPUs support VT‑x with EPT (check the Intel list referenced by the docs)【turn6fetch0】.
-- Nested virtualization is enabled if you run SmartOS as a VM and want KVM/Bhyve inside it【turn3fetch0】.
-- You avoid overwriting the boot disk (`c0t0d0`) when using the VMware image【turn0search0】.
+- Intel CPUs support VT‑x with EPT (check the Intel list referenced by the docs).
+- Nested virtualization is enabled if you run SmartOS as a VM and want KVM/Bhyve inside it.
+- You avoid overwriting the boot disk (`c0t0d0`) when using the VMware image.
 
 ## Download & Installation
 
@@ -134,7 +134,7 @@ It is not for teams that require a glossy web UI or a Linux‑centric toolchain.
 ## Limitations
 
 - **Steep illumos learning curve.** SMF, ZFS administration, and Zone semantics differ significantly from Linux; expect a non‑trivial ramp‑up.
-- **KVM CPU constraints.** KVM on SmartOS officially supports Intel CPUs with VT‑x and EPT; AMD and non‑EPT Intel support is community‑only and not yet merged【turn6fetch0】.
+- **KVM CPU constraints.** KVM on SmartOS officially supports Intel CPUs with VT‑x and EPT; AMD and non‑EPT Intel support is community‑only and not yet merged.
 - **Global zone package layout.** pkgsrc installs into `/opt/tools` rather than standard Unix paths, which can clash with scripts expecting `/usr/local` or `/opt/local`.
 - **Stateless host, manual automation.** The live‑image design means host‑level config does not persist across reboots unless you automate it (e.g., PXE boot scripts or config management).
 - **No built‑in web UI.** Management is via CLI/JSON; you must bring your own automation or UI layer.
