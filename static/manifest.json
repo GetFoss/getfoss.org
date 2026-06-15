@@ -1,0 +1,28 @@
+{
+  "id": "/",
+  "name": "GetFOSS - Free and Open Source Software",
+  "short_name": "GetFOSS",
+  "description": "GetFOSS.org is your guide to Free and Open Source Software. Discover powerful, privacy-respecting alternatives to proprietary tools through in-depth reviews and practical migration guides. Take back control of your digital life.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e1e2e",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
