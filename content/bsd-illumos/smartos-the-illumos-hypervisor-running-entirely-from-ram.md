@@ -43,24 +43,24 @@ SmartOS publishes two sets of requirements that overlap but differ slightly.
 _From the “Getting Started with SmartOS” documentation:_
 
 - **CPU:** 64‑bit x86 CPU.
-- **RAM:** A minimum of 1 GB of RAM for the hypervisor; “all other compute resources available will be used for virtual instances.”【turn3fetch0】
-- **Hardware virtualization:** To use hardware virtualization features, SmartOS requires an Intel CPU with VT‑x or an AMD CPU with AMD‑V; most modern CPUs meet this.【turn3fetch0】
+- **RAM:** A minimum of 1 GB of RAM for the hypervisor; “all other compute resources available will be used for virtual instances.”
+- **Hardware virtualization:** To use hardware virtualization features, SmartOS requires an Intel CPU with VT‑x or an AMD CPU with AMD‑V; most modern CPUs meet this.
 
 ### Hardware Requirements (Production / KVM-Focused)
 
 _From the “Hardware Requirements” page:_
 
-- **CPU:** 64‑bit capable x86 Intel or AMD CPU.【turn5fetch0】
-- **DRAM:** At least 512 MB of DRAM; the documentation recommends installing as much RAM as possible.【turn5fetch0】
-- **Networking & storage:** At least one networking interface and a supported disk controller. Supported devices are listed in the illumos Hardware Compatibility List (HCL).【turn5fetch0】【turn8click0】
+- **CPU:** 64‑bit capable x86 Intel or AMD CPU.
+- **DRAM:** At least 512 MB of DRAM; the documentation recommends installing as much RAM as possible.
+- **Networking & storage:** At least one networking interface and a supported disk controller. Supported devices are listed in the illumos Hardware Compatibility List (HCL).
 - **KVM on Intel:** Supported on Intel processors with both VT‑x and Extended Page Tables (EPT). EPT was introduced with the Nehalem line. As a rule of thumb, supported CPUs include:
     - Xeon E3, E5, E7
     - Xeon 54xx, 55xx, 56xx, 74xx, 75xx, 76xx
     - Some Xeon 34xx, 35xx, 36xx models
     - Some Core i3, i5, i7
-    - Most newer Sandy Bridge and Ivy Bridge desktop Pentium and Celeron processors【turn6fetch0】
-- **AMD / non‑EPT Intel:** Support for AMD CPUs and Intel CPUs without EPT is under community development and is not yet supported in the main SmartOS builds. Community “eait‑Images” built by arekinath include AMD support and are intended for testing so the code can eventually be merged upstream.【turn6fetch0】
-- **Known issues:** Some Intel CPU C‑states have caused problems on illumos; SmartOS works around them, but the documentation recommends considering disabling C‑states in the BIOS.【turn6fetch0】
+    - Most newer Sandy Bridge and Ivy Bridge desktop Pentium and Celeron processors
+- **AMD / non‑EPT Intel:** Support for AMD CPUs and Intel CPUs without EPT is under community development and is not yet supported in the main SmartOS builds. Community “eait‑Images” built by arekinath include AMD support and are intended for testing so the code can eventually be merged upstream.
+- **Known issues:** Some Intel CPU C‑states have caused problems on illumos; SmartOS works around them, but the documentation recommends considering disabling C‑states in the BIOS.
 
 In practice, treat 1 GB as the realistic minimum for the live hypervisor image, and 512 MB as the lower bound for the SmartOS platform itself on minimal hardware. For any production use with KVM and multiple VMs, you will want significantly more RAM.
 
@@ -96,18 +96,20 @@ _For KVM specifically, ensure:_
 ### Quick Start
 
 1. **Choose media.**
+
     - Physical hardware: Write the USB image to a key.
     - VMware: Extract the VM image.
     - VirtualBox/UTM: Use the ISO.
+
 2. **Boot and configure.**
 Boot the media. The system loads into RAM and starts a configuration utility. Set network interfaces, root password, and select disks for the ZFS pool. The system then reboots.
 3. **Log in.**
 Log in via console or SSH; you’re in the global zone.
-4. **Import images and create a VM.**imgadm update
+4. \*\*Import images and create a VM.\*\*imgadm update
 imgadm import <uuid>
 vmadm create -f payload.json
-
 5. **Warnings.**
+
     - Do not format or overwrite the first disk (`c0t0d0`) in the VMware image; that is the boot media.
     - Enable nested virtualization in VMware if you need KVM/Bhyve inside the VM.
     - Builds are timestamped (e.g., `20120809T221258Z`), not versioned; new builds appear roughly every two weeks.
