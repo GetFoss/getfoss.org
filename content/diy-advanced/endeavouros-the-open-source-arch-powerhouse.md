@@ -1,9 +1,8 @@
 ---
-aliases:
-    - /endeavouros-the-open-source-arch-powerhouse/
-title: "EndeavourOS: The Open Source Arch Powerhouse"
-date: 2026-06-06T15:44:14
-description: "EndeavourOS is a free, open source Arch-based distro rolling out the Titan release. Get cutting-edge Linux without the bloat."
+title: 'EndeavourOS: The Open Source Arch Powerhouse'
+description: EndeavourOS is a free, open source Arch-based distro rolling out the Titan release. Get cutting-edge Linux without the bloat.
+date: 2026-06-06T15:44:00+03:00
+image: /images/endeavouros-titan-livesession-webp.webp
 categories:
   - diy-advanced
 tags:
@@ -11,9 +10,10 @@ tags:
   - Linux
   - Advanced
   - Rolling Release
-slug: "endeavouros-the-open-source-arch-powerhouse"
+aliases:
+  - /endeavouros-the-open-source-arch-powerhouse/
 comments: false
-image: "/images/endeavouros-titan-livesession-webp.webp"
+slug: endeavouros-the-open-source-arch-powerhouse
 ---
 
 <p>EndeavourOS is what happens when you want the raw power of Arch Linux but don't want to spend your entire weekend manually configuring a base install. It's an Arch-based distribution that gives you a graphical installer, a few sensible defaults, and then gets out of your way. No bloat. No vendor lock-in. In the proprietary world, macOS and Windows treat you like a tenant, dictating what software runs and hoarding your telemetry. EndeavourOS hands you the keys to the kingdom. It is Free and Open Source software that respects your autonomy. <a href="https://endeavouros.com/" target="_blank" rel="noopener noreferrer"><span style="color: #e03e2d;">Visit Official Website</span></a>.</p>
@@ -68,12 +68,11 @@ image: "/images/endeavouros-titan-livesession-webp.webp"
 </ul>
 <h3>Source Code</h3>
 <p><span style="color: #e03e2d;"><a href="https://github.com/endeavouros-team" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">View Source Code on GitHub</a></span></p>
-<h2>Open Source Alternatives</h2>
-<ul>
-<li><strong><span style="color: #e03e2d;"><a href="https://www.getfoss.org/artix-linux-the-open-source-systemd-free-powerhouse" target="_blank" rel="noopener" style="color: #e03e2d;">Arch Linux</a></span>:</strong> The parent distro. No graphical installer, no hand-holding. You build the system from scratch using the terminal. Pure Arch is for masochists and sysadmins who want absolute 100% control from the first byte.</li>
-<li><strong>Manjaro:</strong> Also Arch-based, but they hold back packages in their own repos for "stability." This can cause severe AUR dependency mismatches. Fine for beginners, but dangerous for power users.</li>
-<li><strong><span style="color: #e03e2d;"><a href="https://www.getfoss.org/fedora-workstation-the-open-source-cutting-edge-os" target="_blank" rel="noopener" style="color: #e03e2d;">Fedora</a></span>:</strong> Cutting-edge, but uses RPM and DNF instead of Pacman. Great for developers, but it's backed by Red Hat's corporate agenda, which is increasingly dictating the Linux ecosystem.</li>
-</ul>
-<p>Stop letting proprietary vendors track your age and your clicks. Ditch the bloat. Get software. Get freedom. Get FOSS.</p>
 
+### Open Source Alternatives
 
+- [**Arch Linux**](https://www.getfoss.org/artix-linux-the-open-source-systemd-free-powerhouse)**:** The parent distro. No graphical installer, no hand-holding. You build the system from scratch using the terminal. Pure Arch is for masochists and sysadmins who want absolute 100% control from the first byte.
+- [**Manjaro**](https://getfoss.org/diy-advanced/manjaro-linux-the-arch-based-distribution-that-ships-a-usable-desktop-out-of-the-box/)**:** Also Arch-based, but they hold back packages in their own repos for "stability." This can cause severe AUR dependency mismatches. Fine for beginners, but dangerous for power users.
+- [**Fedora**](https://www.getfoss.org/fedora-workstation-the-open-source-cutting-edge-os)**:** Cutting-edge, but uses RPM and DNF instead of Pacman. Great for developers, but it's backed by Red Hat's corporate agenda, which is increasingly dictating the Linux ecosystem.
+
+Stop letting proprietary vendors track your age and your clicks. Ditch the bloat. Get software. Get freedom. Get FOSS.
