@@ -105,7 +105,7 @@ _For KVM specifically, ensure:_
 Boot the media. The system loads into RAM and starts a configuration utility. Set network interfaces, root password, and select disks for the ZFS pool. The system then reboots.
 3. **Log in.**
 Log in via console or SSH; you’re in the global zone.
-4. \*\*Import images and create a VM.\*\*imgadm update
+4. **Import images and create a VM**. imgadm update
 imgadm import <uuid>
 vmadm create -f payload.json
 5. **Warnings.**
