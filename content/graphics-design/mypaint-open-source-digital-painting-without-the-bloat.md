@@ -51,21 +51,18 @@ If pre-built binaries fail, you can build from source. Clone the repository, ens
 git clone https://github.com/mypaint/mypaint.git
 cd mypaint
 python setup.py demo
-
 ```
 
 If the demo executes, install it system-wide:
 
 ```plain
 python setup.py managed_install
-
 ```
 
 To remove it later:
 
 ```plain
 python setup.py managed_uninstall
-
 ```
 
 ## Download & Installation
@@ -79,7 +76,7 @@ python setup.py managed_uninstall
 
 - [**Krita**](https://getfoss.org/graphics-design/krita-the-open-source-digital-painting-powerhouse/)**:** A full-fledged digital painting and animation studio. Better suited for comic creation, HDR painting, and complex layer management, but significantly heavier.
 - [**GIMP**](https://getfoss.org/graphics-design/gimp-the-ultimate-open-source-photo-editing-powerhouse/)**:** An image manipulation program with painting capabilities. It integrates `libmypaint` for brush dynamics but is fundamentally designed for photo editing, not rapid sketching.
-- **Drawpile:** A collaborative drawing application. Focuses on networked multi-user canvas sessions rather than single-user brush dynamics.
+- [**Drawpile**](https://getfoss.org/graphics-design/drawpile-collaborative-drawing-with-full-infrastructure-control/)**:** A collaborative drawing application. Focuses on networked multi-user canvas sessions rather than single-user brush dynamics.
 
 ## Who Should Use It?
 
