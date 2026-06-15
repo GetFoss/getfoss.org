@@ -1,9 +1,8 @@
 ---
-aliases:
-    - /openindiana-the-open-source-illumos-powerhouse/
-title: "OpenIndiana: The Open Source Illumos Powerhouse"
-date: 2026-06-08T20:16:39
-description: "OpenIndiana is a free, open source illumos operating system for servers and workstations. Escape vendor lock-in with ZFS, DTrace, and real Unix."
+title: 'OpenIndiana: The Open Source Illumos Powerhouse'
+description: OpenIndiana is a free, open source illumos operating system for servers and workstations. Escape vendor lock-in with ZFS, DTrace, and real Unix.
+date: 2026-06-08T20:16:00+03:00
+image: /images/OpenIndiana-webp.webp
 categories:
   - bsd-illumos
 tags:
@@ -11,9 +10,10 @@ tags:
   - ZFS
   - Server
   - Unix
-slug: "openindiana-the-open-source-illumos-powerhouse"
+aliases:
+  - /openindiana-the-open-source-illumos-powerhouse/
 comments: false
-image: "/images/OpenIndiana-webp.webp"
+slug: openindiana-the-open-source-illumos-powerhouse
 ---
 
 <p>Remember when Sun Microsystems built Solaris? Real Unix. Rock-solid networking. ZFS before it was cool. Then Oracle swallowed Sun, locked everything behind paywalls, and killed the open-source OpenSolaris project. That's what proprietary vultures do. But the code was already free. OpenIndiana is the direct descendant of OpenSolaris. It's a complete, independently developed illumos distribution built by people who refuse to let corporate greed bury superior technology. It's FOSS, it's Unix, and it doesn't phone home. <a href="https://www.openindiana.org/" target="_blank" rel="noopener noreferrer"><span style="color: #e03e2d;">Visit Official Website</span></a>.</p>
@@ -69,10 +69,8 @@ image: "/images/OpenIndiana-webp.webp"
 <p><span style="color: #e03e2d;"><a href="https://github.com/openindiana" target="_blank" rel="noopener noreferrer" style="color: #e03e2d;">View Source Code on GitHub</a></span></p>
 <h2>Open Source Alternatives</h2>
 <ul>
-<li><strong>OmniOS:</strong> A stripped-down, minimalist illumos distro. Perfect for headless ZFS storage or infrastructure servers where you don't want a desktop or bloated packages. Less hand-holding than OI.</li>
+<li><strong><span style="color: #e03e2d;"><a href="https://getfoss.org/bsd-illumos/omnios-the-illumos-distribution-for-resilient-zfs-storage-and-zones/" target="_blank" rel="noopener" style="color: #e03e2d;">OmniOS</a></span>:</strong> A stripped-down, minimalist illumos distro. Perfect for headless ZFS storage or infrastructure servers where you don't want a desktop or bloated packages. Less hand-holding than OI.</li>
 <li><strong>SmartOS:</strong> Lives entirely in RAM. Boots from a USB/ISO and runs Zones/KVM VMs via Triton. Incredible for multi-tenant cloud deployments, but terrible if you want a persistent local OS install.</li>
 <li><strong><span style="color: #e03e2d;"><a href="https://www.getfoss.org/freebsd-the-open-source-unix-powerhouse" target="_blank" rel="noopener" style="color: #e03e2d;">FreeBSD</a></span>:</strong> The BSD alternative. Great ZFS support and massive ports collection, but it lacks the deep kernel observability of DTrace and the native Zones integration that illumos provides out of the box.</li>
 </ul>
 <p>Stop renting your Unix from corporations that hold your infrastructure hostage. Get software. Get freedom. Get FOSS.</p>
-
-
