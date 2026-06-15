@@ -62,14 +62,13 @@ Download the AppImage, make it executable, and run it.
 ```plain
 chmod +x RawTherapee_5.12_release.AppImage
 ./RawTherapee_5.12_release.AppImage
-
 ```
 
 ## Open Source Alternatives
 
 - [**darktable**](https://getfoss.org/graphics-design/darktable-the-open-source-raw-photography-powerhouse/)**:** Combines RAW processing with a full Digital Asset Management (DAM) system. Better suited for photographers who need cataloging and tagging alongside development.
 - [**ART (Another RawTherapee)**](https://github.com/artraweditor/ART)**:** A fork of RawTherapee. Strips out some advanced features to focus on a simplified UI and localized editing (layers/masks).
-- **LightZone:** Uses the Zone System for exposure adjustments. Less actively developed than RawTherapee or darktable.
+- [**LightZone**](https://getfoss.org/graphics-design/lightzone-open-source-photo-editing-via-the-zone-system/)**:** Uses the Zone System for exposure adjustments. Less actively developed than RawTherapee or darktable.
 
 ## Who Should Use It?
 
