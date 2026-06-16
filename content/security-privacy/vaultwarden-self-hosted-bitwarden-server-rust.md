@@ -80,7 +80,6 @@ services:
       - ./vw-data/:/data/
     ports:
       - 127.0.0.1:8000:80
-
 ```
 
 Run `docker compose up -d`. Configure a reverse proxy to proxy HTTPS traffic to `127.0.0.1:8000`.
@@ -88,7 +87,7 @@ Run `docker compose up -d`. Configure a reverse proxy to proxy HTTPS traffic to
 ## Open Source Alternatives
 
 - [**Bitwarden Official Server**](https://github.com/bitwarden/server)**:** The upstream C#/MSSQL implementation. Resource-heavy (6GB+ RAM minimum). Source-available license, not fully FOSS.
-- **Passbolt:** A fully open-source (AGPL) password manager designed for teams. Uses OpenPGP for authentication and encryption, integrated primarily via browser extension.
+- [**Passbolt**](https://getfoss.org/security-privacy/passbolt-team-password-manager-open-core/)**:** A fully open-source (AGPL) password manager designed for teams. Uses OpenPGP for authentication and encryption, integrated primarily via browser extension.
 - [**KeePassXC**](https://getfoss.org/password-managers/keepassxc-cross-platform-password-manager/)**:** A local-first password manager. No server component. Sync relies on file synchronization tools. Zero network attack surface.
 
 ## Who Should Use It?
