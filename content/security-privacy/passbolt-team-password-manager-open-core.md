@@ -80,13 +80,29 @@ Deploying a fully FOSS password manager for a development team using Docker.
 
 **Quick Start (Docker CE):**
 
-1. Download the compose file and checksum:curl -LO "https://download.passbolt.com/ce/docker/docker-compose-ce.yaml"
+1. Download the Docker Compose file and its SHA512 checksum:
+
+```plain
+curl -LO "https://download.passbolt.com/ce/docker/docker-compose-ce.yaml"
 curl -LO "https://github.com/passbolt/passbolt_docker/releases/latest/download/docker-compose-ce-SHA512SUM.txt"
+
+```
+
+2. Verify the integrity of the downloaded file:
+
+```plain
 sha512sum -c docker-compose-ce-SHA512SUM.txt && echo "Checksum OK" || (echo "Bad checksum. Aborting" && rm -f docker-compose-ce.yaml)
 
-2. Start the stack:docker compose -f docker-compose-ce.yaml up -d
+```
 
-3. Configure the instance and create the first admin user via the setup process.
+3. Start the Passbolt stack:
+
+```plain
+docker compose -f docker-compose-ce.yaml up -d
+
+```
+
+4. Access the web interface to complete the configuration and create the first admin user.
 
 ## Open Source Alternatives
 
