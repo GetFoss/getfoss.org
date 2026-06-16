@@ -35,7 +35,7 @@ The developer also introduced iVentoy, an enhanced PXE server. iVentoy extends t
 
 ## System Requirements
 
-Official hardware system requirements are not explicitly documented in the provided sources. Operationally, Ventoy requires a blank USB drive (or one you are willing to format) and a host system (Linux or Windows) to run the installation utility. iVentoy requires a networked host device, such as a PC, server, NAS, or Raspberry Pi.
+Ventoy does not publish official hardware requirements. Operationally, it requires a blank USB drive (or one you are willing to format) and a host system (Linux or Windows) to run the installation utility. iVentoy requires a networked host device, such as a PC, server, NAS, or Raspberry Pi.
 
 OS compatibility is extensive but distinct from system requirements. Ventoy officially supports booting hundreds of tested ISOs across Windows, Linux, Unix, ChromeOS, and virtualization platforms ([https://www.ventoy.net/en/isolist.html](https://www.ventoy.net/en/isolist.html)).
 
