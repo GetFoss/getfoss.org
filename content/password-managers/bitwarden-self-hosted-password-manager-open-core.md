@@ -14,7 +14,9 @@ tags:
 aliases: []
 ---
 
-Bitwarden is a client-server password manager designed for cross-device synchronization. It solves the problem of real-time credential sharing without relying on proprietary cloud vendors, provided you self-host. The architecture is split: client applications (Desktop, Mobile, Browser, CLI) are FOSS under the GPLv3 license. The official server is proprietary, released under a source-available license that restricts commercial use. To run Bitwarden as fully Free Software, a third-party server implementation is mandatory. The official website is [Bitwarden](https://bitwarden.com/).
+Bitwarden is a client-server password manager designed for cross-device synchronization. It solves the problem of real-time credential sharing without relying on proprietary cloud vendors, provided you self-host. The architecture is split: client applications (Desktop, Mobile, Browser, CLI) are FOSS under the GPLv3 license.
+
+The official server is proprietary, released under a source-available license that restricts commercial use. To run Bitwarden as fully Free Software, a third-party server implementation is mandatory. The official website is [Bitwarden](https://bitwarden.com/).
 
 ## Why It Matters (The FOSS Angle)
 
