@@ -72,7 +72,7 @@ _Recent changelogs highlight specific operational caveats and fixes:_
 ## Open Source Alternatives
 
 - [**BalenaEtcher**](https://getfoss.org/disk-system-utilities/balenaetcher-flashing-sd-cards-and-usb-drives-without-the-drama/)**:** A UI-focused tool for writing single images to SD cards or USBs. It lacks Ventoy’s multi-boot and persistent menu capabilities.
-- **Rufus:** A Windows-only utility. Excellent at creating bootable drives and handling strict partition schemes, but requires formatting the drive for each new ISO.
+- [**Rufus**](https://getfoss.org/disk-system-utilities/rufus-bootable-usb-creation-and-windows-install-customization/)**:** A Windows-only utility. Excellent at creating bootable drives and handling strict partition schemes, but requires formatting the drive for each new ISO.
 - [**dd**](https://getfoss.org/disk-system-utilities/dd-the-open-source-disk-cloning-alternative/)**:** The standard Unix block-copy tool. It writes raw images but provides no boot menu management or ISO layout abstraction.
 
 ## Who Should Use It?
