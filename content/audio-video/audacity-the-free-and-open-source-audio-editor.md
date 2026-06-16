@@ -77,7 +77,7 @@ A common deployment scenario is podcast post-production. A user records audio lo
 
 - **Ardour:** A full-fledged digital audio workstation. More suited for multi-track recording, mixing, and mastering than Audacity, but carries a steeper learning curve.
 - **LMMS:** Designed for music production rather than general audio editing. Includes built-in instruments and sequencers.
-- **Tenacity:** A fork of Audacity. Created in response to governance and telemetry concerns, focusing strictly on privacy and community-driven development.
+- [**Tenacity**](https://getfoss.org/audio-video/tenacity-telemetry-free-audio-editor-fork/)**:** A fork of Audacity. Created in response to governance and telemetry concerns, focusing strictly on privacy and community-driven development.
 
 ## Who Should Use It?
 
