@@ -74,8 +74,8 @@ KeePass is available in standard repositories.
 
 ## Open Source Alternatives
 
-- **KeePassXC:** A C++ native fork. Drops the .NET/Mono dependency entirely, integrating tightly with Linux desktop environments and browsers. Lacks some of the advanced trigger logic and specific plugin compatibility of the original KeePass, but offers a cleaner native experience.
-- **Bitwarden:** A self-hostable, cloud-first password manager. Uses a client-server architecture rather than a local file. Better suited for teams requiring real-time shared access, but requires infrastructure maintenance and introduces a network attack surface.
+- [**KeePassXC**](https://getfoss.org/password-managers/keepassxc-cross-platform-password-manager/)**:** A C++ native fork. Drops the .NET/Mono dependency entirely, integrating tightly with Linux desktop environments and browsers. Lacks some of the advanced trigger logic and specific plugin compatibility of the original KeePass, but offers a cleaner native experience.
+- [**Bitwarden**](https://getfoss.org/password-managers/bitwarden-self-hosted-password-manager-open-core/)**:** A self-hostable, cloud-first password manager. Uses a client-server architecture rather than a local file. Better suited for teams requiring real-time shared access, but requires infrastructure maintenance and introduces a network attack surface.
 - **KeeWeb:** An HTML/JS-based alternative that runs in a web browser. Useful for environments where local installation is impossible, though it sacrifices some OS-level integration like secure desktop input.
 
 ## Who Should Use It?
