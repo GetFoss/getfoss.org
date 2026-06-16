@@ -75,7 +75,7 @@ For portable execution, use the AppImage:
 
 - [**dd**](https://getfoss.org/disk-system-utilities/dd-the-open-source-disk-cloning-alternative/)**:** The standard Unix tool. Native, ubiquitous, and requires zero dependencies. It provides no validation and zero protection against typos. One wrong `of=/dev/sda` and your host OS is gone.
 - [**Ventoy**](https://getfoss.org/disk-system-utilities/ventoy-direct-multi-iso-bootable-usb-creation/)**:** Takes a fundamentally different approach. You install Ventoy to the USB once. After that, you drag and drop `.iso` files onto the FAT32 partition. It creates a boot menu dynamically. Excellent for multi-ISO flash drives, but overkill if you just need to flash a single Raspberry Pi image.
-- **Rufus:** Windows-only tool. Fast, highly configurable, and reliable. Closed source. Does not run on Linux or macOS.
+- [**Rufus**](https://getfoss.org/disk-system-utilities/rufus-bootable-usb-creation-and-windows-install-customization/)**:** Windows-only tool. Fast, highly configurable, and reliable. Closed source. Does not run on Linux or macOS.
 
 ## Who Should Use It?
 
