@@ -51,14 +51,12 @@ Automating nightly encrypted backups of a Vaultwarden instance to local storage.
 
 ```plain
 bw config server https://vw.domain.tld
-
 ```
 
 3. Execute the backup:
 
 ```plain
 portwarden --passphrase YOUR_STRONG_PASSPHRASE --filename vault_backup_$(date +%F).portwarden encrypt
-
 ```
 
 4. Move the generated `.portwarden` file to offline or cold storage.
@@ -67,10 +65,10 @@ portwarden --passphrase YOUR_STRONG_PASSPHRASE --filename vault_backup_$(date +%
 
 ## Download & Installation
 
-**Official Website:** [Portwarden GitHub](https://github.com/vwxyzjn/portwarden)
-**Documentation:** [Portwarden README](https://github.com/vwxyzjn/portwarden#readme)
-**Downloads:** [Portwarden Releases](https://github.com/vwxyzjn/portwarden/releases) · [Bitwarden CLI Releases](https://github.com/bitwarden/cli/releases)
-**Source Code:** [Portwarden Repository](https://github.com/vwxyzjn/portwarden)
+- **Official Website:** [Portwarden GitHub](https://github.com/vwxyzjn/portwarden)
+- **Documentation:** [Portwarden README](https://github.com/vwxyzjn/portwarden#readme)
+- **Downloads:** [Portwarden Releases](https://github.com/vwxyzjn/portwarden/releases) · [Bitwarden CLI Releases](https://github.com/bitwarden/cli/releases)
+- **Source Code:** [Portwarden Repository](https://github.com/vwxyzjn/portwarden)
 
 **Quick Start (Linux amd64):**
 
@@ -81,7 +79,6 @@ portwarden --passphrase YOUR_STRONG_PASSPHRASE --filename vault_backup_$(date +%
 curl -LO https://github.com/vwxyzjn/portwarden/releases/latest/download/portwarden_linux_amd64
 chmod +x portwarden_linux_amd64
 sudo mv portwarden_linux_amd64 /usr/local/bin/portwarden
-
 ```
 
 2. Ensure the `bw` CLI is installed and logged in.
@@ -89,14 +86,12 @@ sudo mv portwarden_linux_amd64 /usr/local/bin/portwarden
 
 ```plain
 portwarden --passphrase "SecretPassphrase123!" --filename backup.portwarden encrypt
-
 ```
 
 4. Verify decryption without restoring:
 
 ```plain
 portwarden --passphrase "SecretPassphrase123!" --filename backup.portwarden decrypt
-
 ```
 
 ## Open Source Alternatives
