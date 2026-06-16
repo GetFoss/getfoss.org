@@ -73,10 +73,16 @@ Deploying a fully FOSS password manager for a development team using Docker.
 
 ## Download & Installation
 
-- **Official Website:** [Passbolt](https://www.passbolt.com/)
-- **Documentation:** [Passbolt Help](https://www.passbolt.com/help/)
-- **Downloads:** [Server Installation Guide](https://www.passbolt.com/ce/docker/docker-compose-ce.yaml) · [Browser Extension](https://www.passbolt.com/browser-extension) · [Mobile Apps](https://www.passbolt.com/mobile)
-- **Source Code:** [Passbolt API](https://github.com/passbolt/passbolt_api) · [Passbolt Browser Extension](https://github.com/passbolt/passbolt_browser_extension) · [Passbolt Android](https://github.com/passbolt/mobile-passbolt-android) · [Passbolt iOS](https://github.com/passbolt/mobile-passbolt-ios)
+**Official Website:** [Passbolt](https://www.passbolt.com/)
+**Documentation:** [Passbolt Help](https://www.passbolt.com/help/)
+
+**Downloads:**
+[Server Installation Guide](https://www.passbolt.com/) · [Docker Compose CE](https://download.passbolt.com/ce/docker/docker-compose-ce.yaml)
+[Browser Extension](https://www.passbolt.com/) · [Mobile Apps](https://www.passbolt.com/)
+
+**Source Code:**
+[Passbolt API](https://github.com/passbolt/passbolt_api) · [Browser Extension](https://github.com/passbolt/passbolt_browser_extension)
+[Android App](https://github.com/passbolt/mobile-passbolt-android) · [iOS App](https://github.com/passbolt/mobile-passbolt-ios) · [Windows App](https://github.com/passbolt/passbolt-windows)
 
 **Quick Start (Docker CE):**
 
@@ -85,18 +91,21 @@ Deploying a fully FOSS password manager for a development team using Docker.
 ```plain
 curl -LO "https://download.passbolt.com/ce/docker/docker-compose-ce.yaml"
 curl -LO "https://github.com/passbolt/passbolt_docker/releases/latest/download/docker-compose-ce-SHA512SUM.txt"
+
 ```
 
 2. Verify the integrity of the downloaded file:
 
 ```plain
 sha512sum -c docker-compose-ce-SHA512SUM.txt && echo "Checksum OK" || (echo "Bad checksum. Aborting" && rm -f docker-compose-ce.yaml)
+
 ```
 
 3. Start the Passbolt stack:
 
 ```plain
 docker compose -f docker-compose-ce.yaml up -d
+
 ```
 
 4. Access the web interface to complete the configuration and create the first admin user.
