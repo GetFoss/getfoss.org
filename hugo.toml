@@ -12,3 +12,6 @@ pagerSize = 3
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[services.disqus]
+shortname = "getfoss"
