@@ -3,6 +3,7 @@
 title: "About"
 slug: "about"
 description: ""
+comments: false
 --------------------------------
 
 # Welcome to GetFOSS.org
