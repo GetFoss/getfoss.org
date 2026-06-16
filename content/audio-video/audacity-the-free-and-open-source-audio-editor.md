@@ -1,5 +1,5 @@
 ---
-title: 'Audacity: The Free and Open Source Audio Editor'
+title: 'Audacity: The Free and Open Source Audio Editor (With Telemetry)'
 description: An expert look at Audacity, the free and open-source cross-platform audio editor. Covering system requirements, real-world usage, and FOSS benefits.
 date: 2026-06-15T20:59:00+03:00
 draft: false
