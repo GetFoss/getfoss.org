@@ -97,7 +97,6 @@ portwarden --passphrase "SecretPassphrase123!" --filename backup.portwarden decr
 ## Open Source Alternatives
 
 - **Bitwarden Official Export:** Built directly into the web vault and CLI. Outputs unencrypted JSON or CSV. Does not support attachments. Suitable only for migration, not secure offline storage. ([Docs](https://bitwarden.com/help/export-your-data/))
-- **Vaultwarden SQLite Backups:** Taking direct filesystem or SQLite backups of the Vaultwarden data directory. Captures everything, but requires dealing with database locks, and the data is only as encrypted as the server configuration allows. ([Wiki](https://github.com/dani-garcia/vaultwarden/wiki/Creating-backups-of-your-vault))
 - **BorgBackup / Restic:** General-purpose deduplicating backup tools. Can back up the entire Vaultwarden server container or data volume, but lack API-level understanding of Bitwarden items. ([BorgBackup](https://www.borgbackup.org/) / [Restic](https://restic.net/))
 
 ## Who Should Use It?
