@@ -55,7 +55,6 @@ Deploying OmniOS as a ZFS NAS or application server is standard. However, admini
 ```plain
 ok set bootfile=platform/i86pc/kernel/amd64/unix
 ok boot
-
 ```
 
 ## Download & Installation
@@ -70,19 +69,15 @@ ok boot
 1. Download the ISO, USB, Cloud Image, or PXE image.
 2. Boot the installer. (Older LTS releases only offer a text installer).
 3. Log in. Update the package catalog:pfexec pkg refresh
-
 4. Apply available updates:pfexec pkg update
-
 5. Reboot into the new Boot Environment:pfexec init 6
-
 6. Install a development toolchain (e.g., GCC 6):pfexec pkg install developer/gcc6 system/header
-
 
 **Privilege Escalation:** OmniOS uses `pfexec` tied to RBAC profiles by default (like Primary Administrator), though `sudo` is also available.
 
 ## Open Source Alternatives
 
-- **SmartOS:** Also illumos-based, but designed primarily as a live-booting hypervisor for zones and KVM VMs. OmniOS is a traditional persistent-disk installation.
+- [**SmartOS**](https://getfoss.org/bsd-illumos/smartos-the-illumos-hypervisor-running-entirely-from-ram/)**:** Also illumos-based, but designed primarily as a live-booting hypervisor for zones and KVM VMs. OmniOS is a traditional persistent-disk installation.
 - [**FreeBSD**](https://getfoss.org/bsd-illumos/freebsd-the-open-source-unix-powerhouse/)**:** Provides ZFS and jails (similar to zones). FreeBSD uses a BSD kernel and userland, whereas OmniOS uses a SysV/illumos lineage with SMF.
 - [**OpenIndiana**](https://getfoss.org/bsd-illumos/openindiana-the-open-source-illumos-powerhouse/)**:** Another illumos distribution, but geared toward both desktop and server use. OmniOS strips out the desktop focus entirely for a lean server OS.
 
