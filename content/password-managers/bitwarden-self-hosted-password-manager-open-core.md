@@ -24,7 +24,7 @@ Bitwarden operates on an open-core model. The clients are auditable, but the off
 
 Running the official server binary means executing a proprietary component. The official Bitwarden cloud service collects telemetry; self-hosting the official stack allows you to disable external telemetry via environment variables, but the server remains a source-available black box.
 
-The FOSS viability of Bitwarden relies entirely on [Vaultwarden](https://github.com/dani-garcia/vaultwarden). Vaultwarden is an independent, fully FOSS Rust implementation of the Bitwarden API. It implements zero telemetry by design, drops the heavy C#/MSSQL dependency, and uses SQLite, MySQL, or PostgreSQL. The combination of official GPL clients + Vaultwarden server constitutes a complete, libre infrastructure.
+The FOSS viability of Bitwarden relies entirely on [Vaultwarden](https://getfoss.org/security-privacy/vaultwarden-self-hosted-bitwarden-server-rust/). Vaultwarden is an independent, fully FOSS Rust implementation of the Bitwarden API. It implements zero telemetry by design, drops the heavy C#/MSSQL dependency, and uses SQLite, MySQL, or PostgreSQL. The combination of official GPL clients + Vaultwarden server constitutes a complete, libre infrastructure.
 
 ## Key Features
 
@@ -65,7 +65,7 @@ Deploying a self-hosted, fully FOSS password manager for a team, avoiding propri
 [Web Browser Extensions](https://bitwarden.com/download/#downloads-web-browser-extensions) · [Desktop Applications](https://bitwarden.com/download/#downloads-desktop-applications) · [Web Application](https://bitwarden.com/download/#web-application)
 [Mobile Applications](https://bitwarden.com/download/#downloads-mobile-applications) · [Command-Line Interface](https://bitwarden.com/download/#command-line-interface) · [Self-Hosted Server](https://bitwarden.com/self-hosted-password-manager-on-premises/)
 
-**Source Code:** [Bitwarden Server](https://github.com/bitwarden/server) (Source-available) · [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (FOSS)
+**Source Code:** [Bitwarden Server](https://github.com/bitwarden/server) (Source-available) · [Vaultwarden](https://getfoss.org/security-privacy/vaultwarden-self-hosted-bitwarden-server-rust/) (FOSS)
 
 **Quick Start (Self-Hosted Official Server):**
 
@@ -82,7 +82,7 @@ Deploying a self-hosted, fully FOSS password manager for a team, avoiding propri
 
 ## Open Source Alternatives
 
-- **Vaultwarden:** A fully FOSS Rust implementation of the Bitwarden server API. Required to achieve a completely libre Bitwarden ecosystem. Uses minimal resources compared to the official stack.
+- [**Vaultwarden**](https://getfoss.org/security-privacy/vaultwarden-self-hosted-bitwarden-server-rust/)**:** A fully FOSS Rust implementation of the Bitwarden server API. Required to achieve a completely libre Bitwarden ecosystem. Uses minimal resources compared to the official stack.
 - **Passbolt:** A fully open-source (AGPL) password manager designed for teams. Uses OpenPGP for authentication and encryption, integrated directly into the browser.
 - [**KeePassXC**](https://getfoss.org/password-managers/keepassxc-cross-platform-password-manager/)**:** A local-first password manager. No server component. Sync relies on file synchronization tools (Syncthing, Nextcloud). Zero telemetry by architecture.
 
