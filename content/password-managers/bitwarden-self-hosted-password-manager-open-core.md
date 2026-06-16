@@ -83,7 +83,7 @@ Deploying a self-hosted, fully FOSS password manager for a team, avoiding propri
 ## Open Source Alternatives
 
 - [**Vaultwarden**](https://getfoss.org/security-privacy/vaultwarden-self-hosted-bitwarden-server-rust/)**:** A fully FOSS Rust implementation of the Bitwarden server API. Required to achieve a completely libre Bitwarden ecosystem. Uses minimal resources compared to the official stack.
-- **Passbolt:** A fully open-source (AGPL) password manager designed for teams. Uses OpenPGP for authentication and encryption, integrated directly into the browser.
+- [**Passbolt**](https://getfoss.org/security-privacy/passbolt-team-password-manager-open-core/)**:** A fully open-source (AGPL) password manager designed for teams. Uses OpenPGP for authentication and encryption, integrated directly into the browser.
 - [**KeePassXC**](https://getfoss.org/password-managers/keepassxc-cross-platform-password-manager/)**:** A local-first password manager. No server component. Sync relies on file synchronization tools (Syncthing, Nextcloud). Zero telemetry by architecture.
 
 ## Who Should Use It?
