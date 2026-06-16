@@ -14,7 +14,9 @@ tags:
 aliases: []
 ---
 
-Audacity is a free, open-source, cross-platform audio editor. It handles recording, editing, and mixing digital audio tracks. For anyone needing to manipulate sound files—whether cutting up podcasts, recording voiceovers, or editing samples—Audacity provides the standard toolset without licensing fees or vendor lock-in. It is FOSS, meaning the code is auditable and the software remains under user control. The official website is [https://www.audacityteam.org/](https://www.audacityteam.org/).
+Audacity is a free, open-source, cross-platform audio editor. It handles recording, editing, and mixing digital audio tracks. For anyone needing to manipulate sound files—whether cutting up podcasts, recording voiceovers, or editing samples—Audacity provides the standard toolset without licensing fees or vendor lock-in.
+
+However, it is critical to note that under its current stewardship, Audacity introduced telemetry and proprietary cloud service integrations, sparking significant privacy and governance concerns within the community (which directly led to privacy-focused forks like [Tenacity](https://getfoss.org/audio-video/tenacity-telemetry-free-audio-editor-fork/)). While the code remains auditable as FOSS, users must weigh these additions against the software's utility. The official website is [https://www.audacityteam.org/](https://www.audacityteam.org/).
 
 ## Why It Matters (The FOSS Angle)
 
