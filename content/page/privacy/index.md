@@ -2,6 +2,7 @@
 title: "Privacy and Cookie Policy"
 description: "Learn how GetFoss handles your data, cookies, and third-party services like Disqus. We are committed to privacy and transparency."
 slug: "privacy"
+comments: false
 ---
 
 **Last Modified:** April 04, 2026

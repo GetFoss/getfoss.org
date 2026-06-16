@@ -3,6 +3,7 @@ title: "Connect with GetFOSS"
 layout: "links"
 slug: "links"
 description: "Find GetFOSS across the open web. Follow us for updates on free software, support our mission, and join the community."
+comments: false
 links:
   - title: "Ko-fi"
     description: "Support the project and buy us a coffee."
