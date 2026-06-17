@@ -87,7 +87,6 @@ The current unstable version is Calligra 3.2.0 Alpha. These builds are for testi
 sudo add-apt-repository ppa:neon/ppa
 sudo apt-get update
 sudo apt-get install project-neon-base project-neon-calligra project-neon-calligra-dbg
-
 ```
 
 You must logout and select “Project Neon” from the login screen to run these builds.
@@ -111,7 +110,7 @@ Calligra is best suited for Linux and FreeBSD users who want tight integration w
 
 ## Limitations
 
-The Windows port is fragmented and often relies on combining outdated and incomplete installers, which is unacceptable for enterprise deployment. Several components in the nightly builds, such as Calligra Gemini and Plans, are explicitly marked as non-functional. The support for older versions drops off sharply (e.g., version 2.4 is unsupported), which may complicate maintenance on legacy LTS distributions. Furthermore, Krita (the painting application) is distributed separately by the Krita Foundation on macOS and Windows, splitting the suite.
+The Windows port is fragmented and often relies on combining outdated and incomplete installers, which is unacceptable for enterprise deployment. Several components in the nightly builds, such as Calligra Gemini and Plans, are explicitly marked as non-functional. The support for older versions drops off sharply (e.g., version 2.4 is unsupported), which may complicate maintenance on legacy LTS distributions. Furthermore, [Krita](https://getfoss.org/graphics-design/krita-the-open-source-digital-painting-powerhouse/) (the painting application) is distributed separately by the Krita Foundation on macOS and Windows, splitting the suite.
 
 ## Final Assessment
 
