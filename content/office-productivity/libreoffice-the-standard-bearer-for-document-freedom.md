@@ -90,7 +90,7 @@ _Official system requirements as documented by the project:_
 
 ## Open Source Alternatives
 
-- **Apache OpenOffice:** The original open-source fork from StarOffice. It shares a codebase with LibreOffice but suffers from significantly slower development cycles and fewer features. LibreOffice is generally preferred.
+- [**Apache OpenOffice**](https://getfoss.org/office-productivity/apache-openoffice-desktop-office-suite/)**:** The original open-source fork from StarOffice. It shares a codebase with LibreOffice but suffers from significantly slower development cycles and fewer features. LibreOffice is generally preferred.
 - [**Calligra Suite**](https://getfoss.org/office-productivity/calligra-integrated-graphics-and-office-suite/)**:** The KDE office suite. It offers tighter integration with the KDE Plasma desktop and a different architectural approach, but has weaker compatibility with proprietary file formats.
 - [**OnlyOffice**](https://www.onlyoffice.com/desktop)**:** A FOSS suite focused heavily on web-based collaboration and high-fidelity MS Office format compatibility. Better suited for environments where MS format fidelity is the absolute priority over ODF advocacy.
 
