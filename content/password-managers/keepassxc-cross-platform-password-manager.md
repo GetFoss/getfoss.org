@@ -78,7 +78,7 @@ Migrating from a cloud-based manager like Bitwarden to a local vault requires ca
 
 - [**KeePass (Original)**](https://getfoss.org/password-managers/keepass-password-safe-local-first-password-management/)**:** Written in C#/.NET. Requires Mono on Linux/macOS, which introduces UI inconsistencies. Offers a more advanced trigger system but lacks native cross-platform integration.
 - [**Bitwarden**](https://getfoss.org/password-managers/bitwarden-self-hosted-password-manager-open-core/)**:** A cloud-first, self-hostable password manager. Uses a client-server architecture. Better suited for users preferring seamless multi-device sync over local file management.
-- **KeePassDX:** An Android-specific client for KDBX databases. Fills the mobile gap for KeePassXC users, though it lacks the desktop Auto-Type and browser integration features.
+- [**KeePassDX**](https://github.com/Kunzisoft/KeePassDX)**:** An Android-specific client for KDBX databases. Fills the mobile gap for KeePassXC users, though it lacks the desktop Auto-Type and browser integration features.
 
 ## Who Should Use It?
 
