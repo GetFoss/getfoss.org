@@ -102,7 +102,7 @@ Windows support is experimental.
 ## Open Source Alternatives
 
 - [**LibreOffice**](https://getfoss.org/office-productivity/libreoffice-the-standard-bearer-for-document-freedom/)**:** The standard for open-source office suites. It offers better compatibility with Microsoft Office formats and has a more mature Windows build than Calligra.
-- **Apache OpenOffice:** A legacy suite that shares code history with Calligra/LibreOffice but has a slower release cycle and fewer updates.
+- [**Apache OpenOffice**](https://getfoss.org/office-productivity/apache-openoffice-desktop-office-suite/)**:** A legacy suite that shares code history with Calligra/LibreOffice but has a slower release cycle and fewer updates.
 
 ## Who Should Use It?
 
