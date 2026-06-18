@@ -92,7 +92,7 @@ Existing version 4+ users receive update notifications automatically. Manual ins
 
 **Denemo:** A graphical frontend for LilyPond. Provides point-and-click input while using LilyPond as the engraving backend. Less polished than MuseScore but offers direct LilyPond access without writing markup by hand.
 
-**TuxGuitar:** Focused on guitar tablature. Lighter weight, simpler. Lacks MuseScore’s orchestral range and engraving depth. Adequate for guitar-focused work where full notation isn’t needed.
+[**TuxGuitar**](https://getfoss.org/audio-video/tuxguitar-open-source-multitrack-tablature-editor-and-player/)**:** Focused on guitar tablature. Lighter weight, simpler. Lacks MuseScore’s orchestral range and engraving depth. Adequate for guitar-focused work where full notation isn’t needed.
 
 ## Who Should Use It?
 
