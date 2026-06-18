@@ -88,7 +88,7 @@ Existing version 4+ users receive update notifications automatically. Manual ins
 
 ## Open Source Alternatives
 
-**LilyPond:** Text-based engraving. You write scores in a markup language, LilyPond compiles them to PDF. Produces output widely regarded as the highest quality of any notation software, FOSS or proprietary. No graphical interface by default—learning curve is steep. Best for users who want absolute control and are comfortable with text workflows.
+[**LilyPond**](https://getfoss.org/audio-video/lilypond-text-based-music-engraving-program/)**:** Text-based engraving. You write scores in a markup language, LilyPond compiles them to PDF. Produces output widely regarded as the highest quality of any notation software, FOSS or proprietary. No graphical interface by default—learning curve is steep. Best for users who want absolute control and are comfortable with text workflows.
 
 **Denemo:** A graphical frontend for LilyPond. Provides point-and-click input while using LilyPond as the engraving backend. Less polished than MuseScore but offers direct LilyPond access without writing markup by hand.
 
