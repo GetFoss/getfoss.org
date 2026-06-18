@@ -77,7 +77,7 @@ A common deployment scenario is podcast post-production. A user records audio lo
 
 ## Open Source Alternatives
 
-- **Ardour:** A full-fledged digital audio workstation. More suited for multi-track recording, mixing, and mastering than Audacity, but carries a steeper learning curve.
+- [**Ardour**](https://getfoss.org/audio-video/ardour-digital-audio-workstation-for-recording-editing-and-mixing/)**:** A full-fledged digital audio workstation. More suited for multi-track recording, mixing, and mastering than Audacity, but carries a steeper learning curve.
 - **LMMS:** Designed for music production rather than general audio editing. Includes built-in instruments and sequencers.
 - [**Tenacity**](https://getfoss.org/audio-video/tenacity-telemetry-free-audio-editor-fork/)**:** A fork of Audacity. Created in response to governance and telemetry concerns, focusing strictly on privacy and community-driven development.
 
