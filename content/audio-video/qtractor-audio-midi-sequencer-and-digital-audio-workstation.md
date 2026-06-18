@@ -75,6 +75,10 @@ To build Qtractor from source, you will need a C++ compiler and the necessary de
 
 `sudo cmake --install build`
 
+**Dependencies**
+
+Key build dependencies include Qt6, JACK, ALSA, libsndfile, libvorbis, libmad, libsamplerate, librubberband, and LV2 dev libraries. On Debian-based systems, these can often be installed via `apt-get build-dep qtractor`.
+
 ## Open Source Alternatives
 
 - [**Ardour**](https://getfoss.org/audio-video/ardour-digital-audio-workstation-for-recording-editing-and-mixing/)**:** A more mature, professional-grade DAW that focuses heavily on recording and editing. It shares the JACK/LV2 ecosystem but offers a different workflow.
