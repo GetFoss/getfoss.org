@@ -87,7 +87,7 @@ Users compiling from source should note that 32-bit MSVC build projects have bee
 
 ## Open Source Alternatives
 
-- **LMMS:** A free, open-source DAW focused heavily on beat synthesis and sequencing. It lacks the robust audio recording and routing capabilities of Ardour.
+- [**LMMS**](https://getfoss.org/audio-video/lmms-cross-platform-digital-audio-workstation-for-music-production/)**:** A free, open-source DAW focused heavily on beat synthesis and sequencing. It lacks the robust audio recording and routing capabilities of Ardour.
 - **Qtractor:** An Audio/MIDI multi-track sequencer for Linux. It is lighter and uses the Qt framework but has a smaller feature set compared to Ardour.
 - [**Audacity**](https://getfoss.org/audio-video/audacity-the-free-and-open-source-audio-editor/)**:** A free, open-source audio editor. It is designed for stereo editing and basic multitrack work, not for complex MIDI production or mixing sessions.
 
