@@ -85,7 +85,7 @@ Recent updates changed the “End” key behavior: one press jumps to the end of
 
 ## Open Source Alternatives
 
-- **MuseScore:** A superior choice if the primary goal is engraving sheet music. It offers more advanced notation features but lacks the integrated DAW-style MIDI sequencing and audio recording capabilities of Rosegarden.
+- [**MuseScore**](https://getfoss.org/audio-video/musescore-studio-open-source-music-notation-and-score-engraving/)**:** A superior choice if the primary goal is engraving sheet music. It offers more advanced notation features but lacks the integrated DAW-style MIDI sequencing and audio recording capabilities of Rosegarden.
 - [**Ardour**](https://getfoss.org/audio-video/ardour-digital-audio-workstation-for-recording-editing-and-mixing/)**:** A robust digital audio workstation focused on recording, editing, and mixing audio. While it handles MIDI, Rosegarden’s notation and MIDI-specific matrix editing are more specialized for composition.
 - [**LMMS**](https://getfoss.org/audio-video/lmms-cross-platform-digital-audio-workstation-for-music-production/)**:** A pattern-based sequencer similar to FL Studio. It is excellent for electronic music production but lacks the comprehensive notation editor found in Rosegarden.
 
