@@ -83,7 +83,7 @@ Key build dependencies include Qt6, JACK, ALSA, libsndfile, libvorbis, libmad, l
 
 - [**Ardour**](https://getfoss.org/audio-video/ardour-digital-audio-workstation-for-recording-editing-and-mixing/)**:** A more mature, professional-grade DAW that focuses heavily on recording and editing. It shares the JACK/LV2 ecosystem but offers a different workflow.
 - [**LMMS**](https://getfoss.org/audio-video/lmms-cross-platform-digital-audio-workstation-for-music-production/)**:** A pattern-based DAW focused more on loop creation and synthesis, with less emphasis on linear audio recording compared to Qtractor.
-- **Rosegarden:** A music composition and editing environment based on MIDI and audio, with a focus on notation and score editing.
+- [**Rosegarden**](https://getfoss.org/audio-video/rosegarden-midi-sequencer-and-music-notation-editor/)**:** A music composition and editing environment based on MIDI and audio, with a focus on notation and score editing.
 
 ## Who Should Use It?
 
