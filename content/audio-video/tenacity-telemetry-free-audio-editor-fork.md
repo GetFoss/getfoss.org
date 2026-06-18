@@ -62,14 +62,12 @@ cd tenacity
 cmake -G Ninja -S . -B build
 cmake --build build
 ./build/Debug/tenacity
-
 ```
 
 To install system dependencies on Debian 12+:
 
 ```plain
 sudo apt-get install build-essential libavcodec-dev libavformat-dev libavutil-dev libflac++-dev libglib2.0-dev libgtk-3-dev libid3tag0-dev libjack-jackd2-dev liblilv-dev libmpg123-dev libmp3lame-dev libogg-dev libpng-dev portaudio19-dev libportmidi-dev libportsmf-dev libserd-dev libsndfile1-dev libsord-dev libsoundtouch-dev libsoxr-dev libsuil-dev libtwolame-dev vamp-plugin-sdk libvorbis-dev lv2-dev zlib1g-dev cmake ninja-build libjpeg-dev libtiff-dev liblzma-dev libsqlite3-dev libzip-dev zipcmp zipmerge ziptool rapidjson-dev wx-common wx3.2-headers libwxgtk3.2-dev
-
 ```
 
 **Operational Caveats:**
@@ -91,7 +89,7 @@ sudo apt-get install build-essential libavcodec-dev libavformat-dev libavutil-de
 ## Open Source Alternatives
 
 - [**Audacity**](https://getfoss.org/audio-video/audacity-the-free-and-open-source-audio-editor/)**:** The upstream project. Offers the same base feature set plus newer additions, but includes telemetry and proprietary cloud integration.
-- **Ardour:** A full-fledged digital audio workstation. Far more complex, suited for multitrack mixing and mastering rather than quick waveform editing.
+- [**Ardour**](https://getfoss.org/audio-video/ardour-digital-audio-workstation-for-recording-editing-and-mixing/)**:** A full-fledged digital audio workstation. Far more complex, suited for multitrack mixing and mastering rather than quick waveform editing.
 - [**Ocenaudio**](https://www.ocenaudio.com/)**:** A simpler audio editor with a clean interface, but it is proprietary freeware, lacking the auditability of a FOSS application.
 
 ## Who Should Use It?
