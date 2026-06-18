@@ -58,7 +58,7 @@ When upgrading to version 2.0.1, be aware that the default file format changed. 
 ## Open Source Alternatives
 
 - [**MuseScore**](https://getfoss.org/audio-video/musescore-studio-open-source-music-notation-and-score-engraving/)**:** A notation-centric software rather than a tab editor. It excels at standard notation and engraving but lacks the specific fretboard-focused workflow of TuxGuitar.
-- **LilyPond:** A text-based music engraver. It offers incredible control over layout but has a steep learning curve compared to the graphical WYSIWYG interface of TuxGuitar.
+- [**LilyPond**](https://getfoss.org/audio-video/lilypond-text-based-music-engraving-program/)**:** A text-based music engraver. It offers incredible control over layout but has a steep learning curve compared to the graphical WYSIWYG interface of TuxGuitar.
 
 ## Who Should Use It
 
