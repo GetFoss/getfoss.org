@@ -55,18 +55,25 @@ Configuration is stored in `~/.config/rncbc.org/Qtractor.conf`. For users compi
 - **Downloads:** [Qtractor Downloads](https://www.qtractor.org/qtractor-downloads.html#Downloads)
 - **Source Code:** [GitHub Repository](https://github.com/rncbc/qtractor.git)
 
-**Installation from Source:**
+### Installation from Source
 
-1. Clone the repository:git clone --recurse-submodules https://git.code.sf.net/p/qtractor/code qtractor-git
+To build Qtractor from source, you will need a C++ compiler and the necessary development libraries.
 
-2. Navigate to the directory:cd qtractor-git
+**1. Clone the repository:**
 
-3. Build and install using CMake:cmake -B build .
-cmake --build build
-sudo cmake --install build
+`git clone --recurse-submodules https://git.code.sf.net/p/qtractor/code qtractor-git`
 
+**2. Navigate to the directory:**
 
-**Dependencies:** Key build dependencies include Qt6, JACK, ALSA, libsndfile, libvorbis, libmad, libsamplerate, librubberband, and LV2 dev libraries.
+`cd qtractor-git`
+
+**3. Build and install using CMake:**
+
+`cmake -B build .`
+
+`cmake --build build`
+
+`sudo cmake --install build`
 
 ## Open Source Alternatives
 
