@@ -42,7 +42,7 @@ The project explicitly documents hardware and software needs based on usage patt
 - **Audio Hardware:** Requires ALSA-supported sound cards.
 - **Runtime Dependencies:**
     - General MIDI soft synth (TiMidity + Freepats or similar)
-    - LilyPond
+    - [LilyPond](https://getfoss.org/audio-video/lilypond-text-based-music-engraving-program/)
     - PDF viewer (Okular, Evince, etc.)
     - QjackCtl (JACK Audio Connection Kit)
     - FLAC, WavPack
