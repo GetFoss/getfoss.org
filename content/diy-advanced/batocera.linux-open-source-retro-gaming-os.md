@@ -107,7 +107,7 @@ If you previously used a `custom.sh` script for startup tasks, v43 will one-ti
 ## Open Source Alternatives
 
 - **RetroArch:** Not a standalone OS, but the underlying frontend/core framework Batocera uses. You can install RetroArch on any standard Linux or Windows machine. Better if you want to keep your existing OS and just run an application.
-- **Lakka:** A libretro distribution built on LibreELEC. Much more minimal than Batocera, using only the RetroArch frontend. No desktop environment, no standalone emulators. Better for very low-end hardware, worse if you need emulators outside the libretro ecosystem.
+- [**Lakka**](https://getfoss.org/diy-advanced/lakka-libreelec-based-retroarch-emulation-console/)**:** A libretro distribution built on LibreELEC. Much more minimal than Batocera, using only the RetroArch frontend. No desktop environment, no standalone emulators. Better for very low-end hardware, worse if you need emulators outside the libretro ecosystem.
 - [**Recalbox**](https://getfoss.org/other/recalbox-open-source-retro-gaming-emulation-platform/)**:** Historically a fork of Batocera. Offers a similar turnkey experience but has moved toward a more commercial/closed model in recent years. Batocera remains the more community-driven, open alternative.
 
 ## Who Should Use It?
