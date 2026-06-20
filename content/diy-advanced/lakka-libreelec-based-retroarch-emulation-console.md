@@ -14,7 +14,7 @@ tags:
 aliases: []
 ---
 
-Lakka is a free and open-source Linux distribution designed to transform standard computing hardware into a dedicated retro gaming console. It addresses the problem of running emulators cleanly and efficiently without the overhead of a full desktop environment. Built on LibreELEC, the system boots directly into RetroArch.
+Lakka is a free and open-source Linux distribution designed to transform standard computing hardware into a dedicated retro gaming console. It addresses the problem of running emulators cleanly and efficiently without the overhead of a full desktop environment. Built on LibreELEC, the system boots directly into [RetroArch](https://getfoss.org/other/retroarch-cross-platform-emulator-frontend/).
 
 Users benefit from a console-like experience with controller-driven navigation, avoiding the need for a keyboard or mouse during standard operation. The project is entirely FOSS, meaning the underlying code, build system, and emulator cores are fully auditable and community-driven.
 
