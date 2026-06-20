@@ -60,12 +60,12 @@ Running MPlayer today usually involves dealing with legacy constraints.
 Because releases are outdated and incompatible with current FFmpeg, building from SVN is the official recommendation.
 
 1. Install build dependencies (gcc, make, x11-dev, etc.).
-2. Checkout the latest source:svn checkout svn://svn.mplayerhq.hu/mplayer/trunk mplayer
-cd mplayer
-3. Configure the build. To use the internal FFmpeg snapshot (safest route on modern distros):./configureIf you want to try linking against your system FFmpeg (may fail on API mismatches):./configure --enable-gui
-4. Compile and install:make
-sudo make install
-5. Play a file:mplayer -vo xv video.mkv
+2. Checkout the latest source: `svn checkout svn://svn.mplayerhq.hu/mplayer/trunk mplayer`
+`cd mplayer`
+3. Configure the build. To use the internal FFmpeg snapshot (safest route on modern distros): `./configureIf` you want to try linking against your system FFmpeg (may fail on API mismatches): `./configure --enable-gui`
+4. Compile and install: `make`
+`sudo make install`
+5. Play a file: `mplayer -vo xv video.mkv`
 
 ## Open Source Alternatives
 
