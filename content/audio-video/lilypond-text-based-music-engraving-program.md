@@ -52,7 +52,7 @@ If a rendering error occurs, the user cannot simply send a screenshot. They must
 ## Open Source Alternatives
 
 - [**MuseScore**](https://getfoss.org/audio-video/musescore-studio-open-source-music-notation-and-score-engraving/)**:** A WYSIWYG (What You See Is What You Get) score editor. It is easier for beginners to pick up but lacks the programmatic precision and text-based version control capabilities of LilyPond.
-- **GNU Denemo:** A graphical notation editor that serves as a frontend for LilyPond. It attempts to bridge the gap between visual editing and LilyPond’s powerful backend.
+- [**GNU Denemo**](https://getfoss.org/audio-video/denemo-open-source-music-notation-editor-with-lilypond-integration/)**:** A graphical notation editor that serves as a frontend for LilyPond. It attempts to bridge the gap between visual editing and LilyPond’s powerful backend.
 
 ## Who Should Use It
 
