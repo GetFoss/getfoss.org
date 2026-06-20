@@ -92,7 +92,7 @@ For headless setup on any supported board, modify the `wifi-config.txt` and `
 
 - [**Batocera**](https://getfoss.org/diy-advanced/batocera.linux-open-source-retro-gaming-os/)**:** A similar Linux distribution for emulation. Unlike Lakka’s pure RetroArch focus, Batocera uses EmulationStation as a front-end to manage multiple standalone emulators.
 - [**RetroPie**](https://retropie.org.uk/)**:** Designed primarily for Raspberry Pi hardware (though available for PC), RetroPie installs atop an existing Raspbian/Debian installation, offering more OS flexibility but requiring more manual configuration.
-- **Recalbox:** An alternative distro that aims for out-of-the-box simplicity. Historically more locked down than Lakka, though it shares the same underlying libretro/RetroArch technology.
+- [**Recalbox**](https://getfoss.org/other/recalbox-open-source-retro-gaming-emulation-platform/)**:** An alternative distro that aims for out-of-the-box simplicity. Historically more locked down than Lakka, though it shares the same underlying libretro/RetroArch technology.
 
 ## Who Should Use It?
 
