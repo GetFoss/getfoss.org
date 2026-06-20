@@ -90,7 +90,7 @@ Existing version 4+ users receive update notifications automatically. Manual ins
 
 [**LilyPond**](https://getfoss.org/audio-video/lilypond-text-based-music-engraving-program/)**:** Text-based engraving. You write scores in a markup language, LilyPond compiles them to PDF. Produces output widely regarded as the highest quality of any notation software, FOSS or proprietary. No graphical interface by default—learning curve is steep. Best for users who want absolute control and are comfortable with text workflows.
 
-**Denemo:** A graphical frontend for LilyPond. Provides point-and-click input while using LilyPond as the engraving backend. Less polished than MuseScore but offers direct LilyPond access without writing markup by hand.
+[**Denemo**](https://getfoss.org/audio-video/denemo-open-source-music-notation-editor-with-lilypond-integration/)**:** A graphical frontend for LilyPond. Provides point-and-click input while using LilyPond as the engraving backend. Less polished than MuseScore but offers direct LilyPond access without writing markup by hand.
 
 [**TuxGuitar**](https://getfoss.org/audio-video/tuxguitar-open-source-multitrack-tablature-editor-and-player/)**:** Focused on guitar tablature. Lighter weight, simpler. Lacks MuseScore’s orchestral range and engraving depth. Adequate for guitar-focused work where full notation isn’t needed.
 
