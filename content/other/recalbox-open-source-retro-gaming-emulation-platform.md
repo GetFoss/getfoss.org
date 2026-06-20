@@ -144,7 +144,7 @@ Reboot and accept the update notification.
 
 ## Open Source Alternatives
 
-[**RetroPie**](https://retropie.org.uk/) — The most widely used retro gaming distribution for Raspberry Pi. Built on Raspbian/Debian with RetroArch as the backend. More manual configuration required compared to Recalbox. Larger community and broader documentation. Less opinionated about defaults.
+[**RetroPie**](https://retropie.org.uk/) — The most widely used retro gaming distribution for Raspberry Pi. Built on Raspbian/Debian with [RetroArch](https://getfoss.org/other/retroarch-cross-platform-emulator-frontend/) as the backend. More manual configuration required compared to Recalbox. Larger community and broader documentation. Less opinionated about defaults.
 
 [**Batocera**](https://getfoss.org/diy-advanced/batocera.linux-open-source-retro-gaming-os/) — Another Linux-based retro gaming OS. Similar approach to Recalbox (boot-and-play image). Supports a wide range of SBCs and PCs. The two projects share some architectural DNA but differ in default configurations and included emulators.
 
