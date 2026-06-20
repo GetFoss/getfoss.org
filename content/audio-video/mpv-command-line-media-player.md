@@ -77,7 +77,7 @@ meson compile -C build
 ## Open Source Alternatives
 
 - **VLC:** The ubiquitous media player. Offers a full GUI, cross-platform consistency, and network streaming capabilities. Lacks mpv’s focus on high-end shader rendering and CLI configurability.
-- **MPlayer:** The direct predecessor to mpv. Still works, but suffers from legacy code bloat and lacks modern Wayland/HDR support.
+- [**MPlayer**](https://getfoss.org/independent-heritage/mplayer-legacy-command-line-media-player/)**:** The direct predecessor to mpv. Still works, but suffers from legacy code bloat and lacks modern Wayland/HDR support.
 - **Celluloid (formerly GNOME MPV):** A GTK frontend for mpv. Provides a traditional GUI wrapper around libmpv for users who want mpv’s backend without the CLI lifestyle.
 
 ## Who Should Use It?
