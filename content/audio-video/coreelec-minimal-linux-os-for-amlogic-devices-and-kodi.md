@@ -107,7 +107,7 @@ Insert the SD card into the Amlogic device and power on. Kodi launches automatic
 ## Open Source Alternatives
 
 - [**LibreELEC**](https://getfoss.org/audio-video/libreelec-minimal-linux-os-for-kodi-media-center/)**:** The broader minimal Kodi OS. Supports Raspberry Pi, x86_64, and Rockchip/Allwinner. Does not specialize in Amlogic hardware. Better choice if you want hardware diversity.
-- **OSMC:** Based on Debian. Offers a full apt-based userspace, providing more flexibility at the cost of overhead. Runs well on Raspberry Pi and their own Vero hardware.
+- [**OSMC**](https://getfoss.org/audio-video/osmc-debian-based-kodi-media-center-os/)**:** Based on Debian. Offers a full apt-based userspace, providing more flexibility at the cost of overhead. Runs well on Raspberry Pi and their own Vero hardware.
 - [**Armbian**](https://docs.armbian.com/) **+** [**Kodi**](https://getfoss.org/audio-video/kodi-cross-platform-media-center-and-htpc-software/)**:** Not a JEOS (Just Enough OS) distribution. You install standard Armbian Linux and add Kodi via apt. Maximum flexibility, maximum configuration effort.
 
 ## Who Should Use It?
