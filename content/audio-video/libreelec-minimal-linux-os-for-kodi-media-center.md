@@ -118,7 +118,6 @@ gunzip -c LibreELEC-RPi5.aarch64-12.2.1.img.gz | sudo dd of=/dev/sdX bs=4M conv=
 
 # Sync and remove
 sync
-
 ```
 
 **First boot:**
@@ -136,7 +135,6 @@ sync
 cd /storage/.update
 wget <release-url>.tar
 reboot
-
 ```
 
 The system applies the update on next boot and reboots into the new version.
@@ -147,15 +145,14 @@ The system applies the update on next boot and reboots into the new version.
 git clone https://github.com/LibreELEC/LibreELEC.tv.git
 cd LibreELEC.tv
 make PROJECT=RPi DEVICE=RPi5 ARCH=aarch64 image
-
 ```
 
 The build system handles toolchain compilation, package building, and image creation. Expect significant compile time depending on hardware.
 
 ## Open Source Alternatives
 
-- **CoreELEC:** A fork focused specifically on Amlogic SoC devices (Hardkernel ODROID, generic Android TV boxes). If you’re running Amlogic hardware, CoreELEC often has better device-specific support and newer kernel patches for that silicon. The projects share heritage and code but diverge on target hardware.
-- **OSMC (Open Source Media Center):** Built on Debian rather than a custom minimal OS. Gives you a full Debian userspace with `apt`, which means more flexibility but more overhead and more things that can break. Better if you want a general-purpose Linux box that also runs Kodi. Worse if you want a locked-down appliance.
+- [**CoreELEC**](https://getfoss.org/audio-video/coreelec-minimal-linux-os-for-amlogic-devices-and-kodi/)**:** A fork focused specifically on Amlogic SoC devices (Hardkernel ODROID, generic Android TV boxes). If you’re running Amlogic hardware, CoreELEC often has better device-specific support and newer kernel patches for that silicon. The projects share heritage and code but diverge on target hardware.
+- [**OSMC (Open Source Media Center)**](https://getfoss.org/audio-video/osmc-debian-based-kodi-media-center-os/)**:** Built on Debian rather than a custom minimal OS. Gives you a full Debian userspace with `apt`, which means more flexibility but more overhead and more things that can break. Better if you want a general-purpose Linux box that also runs Kodi. Worse if you want a locked-down appliance.
 - **Batocera Linux:** A broader retro-gaming and media center distribution. Includes EmulationStation alongside Kodi. Heavier than LibreELEC but covers more use cases in a single image. Relevant if you want both retro gaming and media playback on the same device.
 
 ## Who Should Use It?
