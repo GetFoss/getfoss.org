@@ -134,9 +134,9 @@ ninja
 
 ## Open Source Alternatives
 
-- **Jellyfin:** A media server with its own client apps. Better if you want a centralized server-client architecture rather than a single frontend app. Kodi can connect to Jellyfin via add-ons, but Jellyfin’s native clients are often more integrated.
+- [**Jellyfin**](https://getfoss.org/audio-video/jellyfin-free-software-media-system/)**:** A media server with its own client apps. Better if you want a centralized server-client architecture rather than a single frontend app. Kodi can connect to Jellyfin via add-ons, but Jellyfin’s native clients are often more integrated.
 - [**Plex**](https://www.plex.tv/)**:** Proprietary backend, freemium model. Excellent client ecosystem but requires a Plex Media Server and an account. Kodi is the open alternative for users who refuse server-side authentication.
-- **mpv:** A minimal, CLI-driven media player. No 10-foot UI, no metadata scraping. Pure video playback with the lowest possible overhead. For purists who just want to play a file.
+- [**mpv**](https://getfoss.org/audio-video/mpv-command-line-media-player/)**:** A minimal, CLI-driven media player. No 10-foot UI, no metadata scraping. Pure video playback with the lowest possible overhead. For purists who just want to play a file.
 
 ## Who Should Use It?
 
