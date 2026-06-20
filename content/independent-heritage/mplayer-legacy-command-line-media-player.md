@@ -70,7 +70,7 @@ Because releases are outdated and incompatible with current FFmpeg, building fro
 ## Open Source Alternatives
 
 - [**mpv**](https://getfoss.org/audio-video/mpv-command-line-media-player/)**:** The direct successor to MPlayer. Stripped out the legacy code, dropped the GUI, and implemented modern Vulkan/GPU shader rendering. Use this for any modern system.
-- **VLC:** The standard GUI media player. Cross-platform, handles network streams better than MPlayer, and doesn’t require compiling from SVN to work with modern libraries.
+- [**VLC**](https://getfoss.org/audio-video/vlc-cross-platform-multimedia-player-and-streamer/)**:** The standard GUI media player. Cross-platform, handles network streams better than MPlayer, and doesn’t require compiling from SVN to work with modern libraries.
 - [**xine**](http://xinehq.de/)**:** Another legacy multimedia engine. Mostly superseded by VLC and mpv, but still exists in niche multimedia distributions.
 
 ## Who Should Use It?
