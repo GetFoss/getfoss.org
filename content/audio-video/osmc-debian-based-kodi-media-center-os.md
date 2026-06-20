@@ -98,7 +98,7 @@ Insert the SD card into the device and power on. Kodi will launch automatically 
 
 - [**LibreELEC**](https://getfoss.org/audio-video/libreelec-minimal-linux-os-for-kodi-media-center/)**:** A true JeOS distribution. Read-only root, no package manager. Better if you want a locked-down appliance that resists configuration drift. Worse if you want to run other Linux services alongside Kodi.
 - [**CoreELEC**](https://getfoss.org/audio-video/coreelec-minimal-linux-os-for-amlogic-devices-and-kodi/)**:** Specialized for Amlogic SoCs. If you have a generic Amlogic Android box, CoreELEC is the better choice. OSMC does not target generic Amlogic hardware.
-- **Batocera Linux:** A broader retro-gaming and media center OS. Includes EmulationStation. Heavier than OSMC but covers more use cases.
+- [**Batocera Linux**](https://getfoss.org/diy-advanced/batocera.linux-open-source-retro-gaming-os/)**:** A broader retro-gaming and media center OS. Includes EmulationStation. Heavier than OSMC but covers more use cases.
 
 ## Who Should Use It?
 
