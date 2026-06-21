@@ -88,7 +88,7 @@ The project does not publish a single consolidated hardware requirements table. 
     - “Game” with game capture, microphone, and desktop audio.
     - “Camera” with webcam and microphone.
 
-3. Set streaming service in Settings -> Stream. Use x264 for simplicity, or NVENC/AMF/QSV for lower CPU load.
+3. Set streaming service in **Settings** -> **Stream**. Use x264 for simplicity, or NVENC/AMF/QSV for lower CPU load.
 4. Use the audio mixer to balance sources; pin critical sources so they stay visible.
 5. Enable virtual camera to use OBS output in video conferencing apps.
 
@@ -120,28 +120,28 @@ The project does not publish a single consolidated hardware requirements table. 
 #### Flatpak (Recommended for non-Ubuntu distributions)
 
 1. Ensure Flatpak and Flathub are enabled.
-2. Install OBS Studio from Flathub:flatpak install flathub com.obsproject.Studio
-3. Run OBS:flatpak run com.obsproject.Studio
+2. Install OBS Studio from Flathub: `flatpak install flathub com.obsproject.Studio`
+3. Run OBS: `flatpak run com.obsproject.Studio`
 
 #### Ubuntu PPA (Ubuntu 18.04+)
 
-1. Add the OBS PPA and install:sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt update
-sudo apt install obs-studio
+1. Add the OBS PPA and install:sudo add-apt-repository ppa: `obsproject/obs-studio`
+`sudo apt update`
+`sudo apt install obs-studio`
 2. Launch OBS from the desktop menu or terminal.
 
 #### Virtual Camera Setup (Linux)
 
 1. Install `v4l2loopback-dkms`:
 
-    - Debian/Ubuntu:sudo apt install v4l2loopback-dkms
-    - Fedora (requires RPM Fusion):sudo dnf install kmod-v4l2loopback
-    - Fedora Silverblue/Kinoite:rpm-ostree install kmod-v4l2loopback
-    - Arch Linux/Manjaro (requires kernel headers):sudo pacman -S v4l2loopback-dkms
+    - Debian/Ubuntu: `sudo apt install v4l2loopback-dkms`
+    - Fedora (requires RPM Fusion): `sudo dnf install kmod-v4l2loopback`
+    - Fedora Silverblue/Kinoite: `rpm-ostree install kmod-v4l2loopback`
+    - Arch Linux/Manjaro (requires kernel headers): `sudo pacman -S v4l2loopback-dkms`
 
 2. Ensure polkit is configured so OBS can load the module.
-3. Optionally load the module manually:modprobe v4l2loopback exclusive_caps=1 card_label='OBS Virtual Camera'
-4. In OBS, click “Start Virtual Camera”.
+3. Optionally load the module manually: `modprobe v4l2loopback exclusive_caps=1 card_label='OBS Virtual Camera'`
+4. In OBS, click “**_Start Virtual Camera_**”.
 
 ## Open Source Alternatives
 
