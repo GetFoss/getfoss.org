@@ -50,7 +50,7 @@ For broadcasters or VoD platforms adopting VVC, FFmpeg provides the decoding bac
 
 - On some AMD64 distributions, GNU assembler 2.15 will fail. Verify with `$(gcc -print-prog-name=as) --version` and pass `--disable-asm` if you cannot upgrade.
 - BSD systems require GNU Make (`gmake`). BSD make will not work.
-- On (Open)Solaris with non-c99 front-ends, add `--extra-libs=/usr/lib/values-xpg6.o` (or the 64-bit variant). The system shell may kill configure — run `bash ./configure` instead.
+- On (Open) Solaris with non-c99 front-ends, add `--extra-libs=/usr/lib/values-xpg6.o` (or the 64-bit variant). The system shell may kill configure — run `bash ./configure` instead.
 - On macOS PowerPC or ARM (iPhone), the gas-preprocessor script must be in your `PATH`.
 - For Windows MSVC builds, you cannot compile static and shared libraries simultaneously. Enabling `--enable-shared` automatically disables static builds.
 - Windows ARM64EC is explicitly not supported. The project will not accept patches for it due to ABI inconsistencies and the maintenance burden of ifdeffing all aarch64 assembly.
