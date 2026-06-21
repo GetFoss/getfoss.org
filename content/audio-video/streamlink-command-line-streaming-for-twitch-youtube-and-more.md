@@ -14,7 +14,7 @@ tags:
 aliases: []
 ---
 
-Streamlink is a command-line utility that extracts video streams from hundreds of platforms—Twitch, YouTube, and many others—and pipes them directly into your preferred media player, typically VLC. It solves a specific problem: modern web browsers are resource hogs, and streaming platforms load their web players down with telemetry, intrusive ads, and bloated JavaScript.
+Streamlink is a command-line utility that extracts video streams from hundreds of platforms—Twitch, YouTube, and many others—and pipes them directly into your preferred media player, typically [VLC](https://getfoss.org/audio-video/vlc-cross-platform-multimedia-player-and-streamer/). It solves a specific problem: modern web browsers are resource hogs, and streaming platforms load their web players down with telemetry, intrusive ads, and bloated JavaScript.
 
 Streamlink strips away the web interface entirely, giving you the raw video stream. It is Free and Open Source Software, built on a community-driven plugin system, meaning support for new services is added continuously.
 
@@ -132,7 +132,6 @@ choco install streamlink
 # Scoop
 scoop bucket add extras
 scoop install streamlink
-
 ```
 
 **PyPI:**
