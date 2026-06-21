@@ -70,7 +70,6 @@ An archivist digitizing a collection of DVDs can use the Preservation FFV1 FLAC 
 ```bash
 flatpak install flathub fr.handbrake.ghb
 flatpak run fr.handbrake.ghb
-
 ```
 
 ### Verify a release (example for Windows x64)
@@ -80,7 +79,6 @@ The release page publishes SHA-256 hashes and `.sig` signature files for every
 ```bash
 sha256sum HandBrake-1.11.2-x86_64-Win_GUI.exe
 # Compare against published hash: 6becb8e5a041941d5f2fd6fe83c66fc15b2b16190e2e79f5ad47eb4cd18df8cd
-
 ```
 
 ### Quick Start (Windows)
@@ -97,9 +95,9 @@ sha256sum HandBrake-1.11.2-x86_64-Win_GUI.exe
 
 ## Open Source Alternatives
 
-- **FFmpeg:** The underlying engine HandBrake builds on. Infinitely more flexible — supports any format, filter, or pipeline configuration. No GUI. Steeper learning curve but essential for anything beyond straightforward transcodes.
-- **VLC:** Primarily a media player, but includes basic conversion capability via its Stream/Save dialog. Adequate for quick one-off conversions but lacks preset management, queue systems, and fine-grained encoder control.
-- **Avidemux:** A lightweight GUI editor and transcoder. Supports cutting and filtering without re-encoding, which HandBrake cannot do. Encoder options and format support are far narrower, and hardware acceleration is minimal.
+- [**FFmpeg**](https://getfoss.org/audio-video/ffmpeg-cross-platform-audio-and-video-processing-framework/)**:** The underlying engine HandBrake builds on. Infinitely more flexible — supports any format, filter, or pipeline configuration. No GUI. Steeper learning curve but essential for anything beyond straightforward transcodes.
+- [**VLC**](https://getfoss.org/audio-video/vlc-cross-platform-multimedia-player-and-streamer/)**:** Primarily a media player, but includes basic conversion capability via its Stream/Save dialog. Adequate for quick one-off conversions but lacks preset management, queue systems, and fine-grained encoder control.
+- [**Avidemux**](https://www.avidemux.org/)**:** A lightweight GUI editor and transcoder. Supports cutting and filtering without re-encoding, which HandBrake cannot do. Encoder options and format support are far narrower, and hardware acceleration is minimal.
 
 ## Who Should Use It
 
