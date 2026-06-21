@@ -146,7 +146,7 @@ The project does not publish a single consolidated hardware requirements table. 
 ## Open Source Alternatives
 
 - [**SimpleScreenRecorder**](https://getfoss.org/audio-video/simplescreenrecorder-linux-screen-recording-and-opengl-capture/) - Linux-only screen recorder with a simpler UI. Less oriented toward live production, multi-source compositing, and streaming.
-- **Streamlink +** [**FFmpeg**](https://getfoss.org/audio-video/ffmpeg-cross-platform-audio-and-video-processing-framework/) - CLI pipeline extracting streams (Streamlink) and handling encoding/muxing (FFmpeg). Offers control but requires manual scripting.
+- [**Streamlink**](https://getfoss.org/audio-video/streamlink-command-line-streaming-for-twitch-youtube-and-more/) **+** [**FFmpeg**](https://getfoss.org/audio-video/ffmpeg-cross-platform-audio-and-video-processing-framework/) - CLI pipeline extracting streams (Streamlink) and handling encoding/muxing (FFmpeg). Offers control but requires manual scripting.
 - [**vMix**](https://www.vmix.com/) - Proprietary, Windows-only live production software. More polished for large events but closed source and vendor-locked.
 
 ## Who Should Use It?
