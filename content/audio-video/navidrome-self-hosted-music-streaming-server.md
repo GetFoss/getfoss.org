@@ -66,11 +66,28 @@ The v0.62.0 update also moved the `-ss` flag before `-i` in the ffmpeg trans
 
 ### Quick Start (Linux)
 
-1. Install the required dependency: `sudo apt install ffmpeg`
-2. Download the appropriate binary for your architecture (e.g., Linux amd64). For ARM systems, verify your architecture using `cat /proc/cpuinfo` before downloading the correct ARM build.
-3. Extract and run the binary: `tar -xzf navidrome_linux_amd64.tar.gz`
-`./navidrome`
-4. By default, Navidrome creates a `navidrome.db` SQLite database in the working directory and scans the current directory for music. Point it to your library using the `MusicFolder` configuration option.
+1. _Install the required dependency:_
+
+```bash
+sudo apt install ffmpeg
+```
+
+2. _Download the appropriate binary for your architecture (e.g., Linux amd64)._
+_For ARM systems, verify your architecture before downloading the correct build:_
+
+```bash
+cat /proc/cpuinfo
+```
+
+3. _Extract the archive and run the binary:_
+
+```bash
+tar -xzf navidrome_linux_amd64.tar.gz
+./navidrome
+```
+
+4. By default, Navidrome creates a `navidrome.db` SQLite database in the working directory and scans the current directory for music files.
+To use your music library, set the `MusicFolder` configuration option to point to your music directory.
 
 > **Warning:** Do not run Navidrome as root. The `EnforceNonRootUser` configuration option can be set to `true` to force the application to exit if launched with root privileges, a standard sysadmin hardening practice.
 
