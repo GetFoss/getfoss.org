@@ -72,21 +72,68 @@ Deploying Jellyfin requires attention to filesystem and database behaviors, espe
 
 ### Quick Start (Building from Source)
 
-Building the server requires the .NET 10 SDK and ffmpeg installed on your system.
+Building the server requires the **.NET 10 SDK** and [**FFmpeg**](https://getfoss.org/audio-video/ffmpeg-cross-platform-audio-and-video-processing-framework/) to be installed on your system.
 
-1. Clone the repository:git clone https://github.com/jellyfin/jellyfin.git
-2. Obtain the web client. Either build it from the `jellyfin-web` repository or copy the pre-built files from an existing installation (e.g., `C:\Program Files\Jellyfin\Server\jellyfin-web` on Windows).
-3. Run the server, pointing to the web client directory:cd jellyfin
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/jellyfin/jellyfin.git
+```
+
+#### 2. Obtain the web client
+
+_Either:_
+
+- Build it from the `jellyfin-web` repository, or
+- Copy the pre-built files from an existing installation, for example:
+
+```bash
+C:\Program Files\Jellyfin\Server\jellyfin-web
+```
+
+(on Windows)
+
+#### 3. Run the server
+
+_Navigate to the repository directory and start the server, specifying the web client directory:_
+
+```bash
+cd jellyfin
+
 dotnet run --project Jellyfin.Server --webdir /absolute/path/to/jellyfin-web/dist
-4. Access the web interface at `http://localhost:8096`.
+```
 
-To run the server without hosting the frontend (e.g., for separate frontend development), use the `--nowebclient` switch or set the environment variable `JELLYFIN_NOWEBCONTENT=true`. Note that the initial setup wizard cannot be run if the web client is hosted separately.
+#### 4. Open the web interface
+
+_Open your browser and go to:_
+
+```bash
+http://localhost:8096
+```
+
+#### Running without the frontend
+
+To run the server without hosting the web client (for example, during separate frontend development), use one of the following options:
+
+#### Command-line switch
+
+```bash
+--nowebclient
+```
+
+#### Environment variable
+
+```bash
+JELLYFIN_NOWEBCONTENT=true
+```
+
+> **Note:** The initial setup wizard cannot be used when the web client is hosted separately.
 
 ## Open Source Alternatives
 
 - [**Plex**](https://www.plex.tv/)**:** Proprietary freemium platform. Easier initial setup and broader client support, but requires a Plex Pass subscription for hardware transcoding and mobile app usage, and collects telemetry.
 - [**Emby**](https://emby.media/)**:** Originally open source (the basis for Jellyfin), now proprietary. Operates on a freemium model similar to Plex, locking advanced features behind Emby Premiere.
-- **Navidrome:** An open-source server focused strictly on music streaming. Significantly lighter weight than Jellyfin but lacks video handling capabilities.
+- [**Navidrome**](https://getfoss.org/audio-video/navidrome-self-hosted-music-streaming-server/)**:** An open-source server focused strictly on music streaming. Significantly lighter weight than Jellyfin but lacks video handling capabilities.
 
 ## Who Should Use It?
 
