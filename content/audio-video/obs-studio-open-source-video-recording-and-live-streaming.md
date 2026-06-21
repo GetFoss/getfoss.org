@@ -141,11 +141,11 @@ The project does not publish a single consolidated hardware requirements table. 
 
 2. Ensure polkit is configured so OBS can load the module.
 3. Optionally load the module manually: `modprobe v4l2loopback exclusive_caps=1 card_label='OBS Virtual Camera'`
-4. In OBS, click “**_Start Virtual Camera_**”.
+4. In OBS, click “\*\*_Start Virtual Camera_\*\*”.
 
 ## Open Source Alternatives
 
-- **SimpleScreenRecorder** - Linux-only screen recorder with a simpler UI. Less oriented toward live production, multi-source compositing, and streaming.
+- [**SimpleScreenRecorder**](https://getfoss.org/audio-video/simplescreenrecorder-linux-screen-recording-and-opengl-capture/) - Linux-only screen recorder with a simpler UI. Less oriented toward live production, multi-source compositing, and streaming.
 - **Streamlink +** [**FFmpeg**](https://getfoss.org/audio-video/ffmpeg-cross-platform-audio-and-video-processing-framework/) - CLI pipeline extracting streams (Streamlink) and handling encoding/muxing (FFmpeg). Offers control but requires manual scripting.
 - [**vMix**](https://www.vmix.com/) - Proprietary, Windows-only live production software. More polished for large events but closed source and vendor-locked.
 
