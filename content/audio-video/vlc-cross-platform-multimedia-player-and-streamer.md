@@ -71,7 +71,7 @@ Due to the vulnerabilities outlined in VideoLAN-SB-VLC-3022, exploitation requir
 ## Open Source Alternatives
 
 - [**mpv**](https://getfoss.org/audio-video/mpv-command-line-media-player/)**:** A highly customizable, CLI-centric media player based on the MPlayer codebase. It lacks a standard GUI by default but offers superior video scaling algorithms and configuration via plain text files. Preferred by power users who want minimal overhead.
-- **SMPlayer:** A front-end GUI that uses mplayer or mpv as its backend. It remembers playback settings for individual media files and provides a more traditional desktop interface compared to VLC.
+- [**SMPlayer**](https://getfoss.org/audio-video/smplayer-qt-based-media-player-frontend/)**:** A front-end GUI that uses mplayer or mpv as its backend. It remembers playback settings for individual media files and provides a more traditional desktop interface compared to VLC.
 - [**Kodi**](https://getfoss.org/audio-video/kodi-cross-platform-media-center-and-htpc-software/)**:** A full media center application rather than a simple player. Better suited for home theater PC (HTPC) setups connected to a TV, offering library management and scrapers, unlike VLC’s file-centric approach.
 
 ## Who Should Use It?
