@@ -79,7 +79,6 @@ cd ffmpeg
 # Build and install
 make -j$(nproc)
 sudo make install
-
 ```
 
 **Verify a release tarball:**
@@ -93,7 +92,7 @@ gpg --verify ffmpeg-8.1.tar.xz.asc ffmpeg-8.1.tar.xz
 
 - **GStreamer:** A pipeline-based multimedia framework. More modular and object-oriented, but significantly more complex to use from the command line. Better suited for application embedding than batch processing.
 - [**libav**](https://github.com/libav/libav)**:** A fork of FFmpeg from 2011. It has largely stagnated and lacks the hardware acceleration, Vulkan compute, and VVC support present in modern FFmpeg. Not a practical alternative for current deployments.
-- **HandBrake:** A GUI-focused transcoder built on FFmpeg libraries (and others). Good for end-users who need a graphical interface, but it is not a general-purpose framework and cannot replace FFmpeg in server or pipeline contexts.
+- [**HandBrake**](https://getfoss.org/audio-video/handbrake-gui-and-cli-video-transcoder-for-convert-and-compress/)**:** A GUI-focused transcoder built on FFmpeg libraries (and others). Good for end-users who need a graphical interface, but it is not a general-purpose framework and cannot replace FFmpeg in server or pipeline contexts.
 
 ## Who Should Use It
 
