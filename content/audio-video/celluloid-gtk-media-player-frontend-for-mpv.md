@@ -14,7 +14,7 @@ tags:
 aliases: []
 ---
 
-Celluloid is a graphical frontend for the mpv media player. The project addresses a straightforward problem: mpv is a highly capable playback engine, but it lacks a graphical interface by default. Celluloid provides a native GTK GUI for interacting with that engine. It is free and open source software.
+Celluloid is a graphical frontend for the [mpv media player](https://getfoss.org/audio-video/mpv-command-line-media-player/). The project addresses a straightforward problem: mpv is a highly capable playback engine, but it lacks a graphical interface by default. Celluloid provides a native GTK GUI for interacting with that engine. It is free and open source software.
 
 ## Why It Matters (The FOSS Angle)
 
