@@ -84,8 +84,10 @@ The project does not publish a single consolidated hardware requirements table. 
 
 1. Install OBS via Flatpak (non-Ubuntu) or Ubuntu PPA.
 2. Configure scenes:
+
     - “Game” with game capture, microphone, and desktop audio.
     - “Camera” with webcam and microphone.
+
 3. Set streaming service in Settings -> Stream. Use x264 for simplicity, or NVENC/AMF/QSV for lower CPU load.
 4. Use the audio mixer to balance sources; pin critical sources so they stay visible.
 5. Enable virtual camera to use OBS output in video conferencing apps.
@@ -131,10 +133,12 @@ sudo apt install obs-studio
 #### Virtual Camera Setup (Linux)
 
 1. Install `v4l2loopback-dkms`:
+
     - Debian/Ubuntu:sudo apt install v4l2loopback-dkms
     - Fedora (requires RPM Fusion):sudo dnf install kmod-v4l2loopback
     - Fedora Silverblue/Kinoite:rpm-ostree install kmod-v4l2loopback
     - Arch Linux/Manjaro (requires kernel headers):sudo pacman -S v4l2loopback-dkms
+
 2. Ensure polkit is configured so OBS can load the module.
 3. Optionally load the module manually:modprobe v4l2loopback exclusive_caps=1 card_label='OBS Virtual Camera'
 4. In OBS, click “Start Virtual Camera”.
@@ -143,7 +147,7 @@ sudo apt install obs-studio
 
 - **SimpleScreenRecorder** - Linux-only screen recorder with a simpler UI. Less oriented toward live production, multi-source compositing, and streaming.
 - **Streamlink + FFmpeg** - CLI pipeline extracting streams (Streamlink) and handling encoding/muxing (FFmpeg). Offers control but requires manual scripting.
-- **vMix** - Proprietary, Windows-only live production software. More polished for large events but closed source and vendor-locked.
+- [**vMix**](https://www.vmix.com/) - Proprietary, Windows-only live production software. More polished for large events but closed source and vendor-locked.
 
 ## Who Should Use It?
 
