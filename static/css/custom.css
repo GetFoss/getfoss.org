@@ -38,6 +38,9 @@
 .article-list--tile a[href="/categories/password-managers/"], .article-list--tile a[href="/categories/password-managers/"] .article-details { background-color: #fbe9e7 !important; }
 .article-list--tile a[href="/categories/password-managers/"] .article-title { color: #bf360c !important; }
 
+.article-list--tile a[href="/categories/deep-dives/"], .article-list--tile a[href="/categories/deep-dives/"] .article-details { background-color: #ede7f6 !important; }
+.article-list--tile a[href="/categories/deep-dives/"] .article-title { color: #311b92 !important; }
+
 /* Category Colors - Dark Mode */
 [data-scheme="dark"] .article-list--tile a[href="/categories/debian-ubuntu/"], [data-scheme="dark"] .article-list--tile a[href="/categories/debian-ubuntu/"] .article-details { background-color: #880e4f !important; }
 [data-scheme="dark"] .article-list--tile a[href="/categories/debian-ubuntu/"] .article-title { color: #fce4ec !important; }
@@ -77,3 +80,6 @@
 
 [data-scheme="dark"] .article-list--tile a[href="/categories/password-managers/"], [data-scheme="dark"] .article-list--tile a[href="/categories/password-managers/"] .article-details { background-color: #bf360c !important; }
 [data-scheme="dark"] .article-list--tile a[href="/categories/password-managers/"] .article-title { color: #fbe9e7 !important; }
+
+[data-scheme="dark"] .article-list--tile a[href="/categories/deep-dives/"], [data-scheme="dark"] .article-list--tile a[href="/categories/deep-dives/"] .article-details { background-color: #311b92 !important; }
+[data-scheme="dark"] .article-list--tile a[href="/categories/deep-dives/"] .article-title { color: #ede7f6 !important; }
