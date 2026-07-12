@@ -16,7 +16,8 @@ mainSections = [
   "password-managers",
   "bsd-illumos",
   "independent-heritage",
-  "other"
+  "other",
+  "deep-dives"
 ]
 rssFullContent = true
 favicon        = "/images/GetFOSS.webp"
